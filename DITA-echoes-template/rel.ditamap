@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Echoes relationship table</title>
+    <reltable>
+        <title>Echo groups 1 to 27</title>
+        <relheader>
+            <relcolspec>
+                <title>Echoes...</title>
+            </relcolspec>
+        </relheader>
+        <relrow>
+            <relcell collection-type="family">
+                <topicref href="1.dita"/>
+                <topicref href="5.dita"/>
+                <topicref href="21.dita"/>
+                <topicref href="25.dita"/>
+                <topicref href="101.dita"/>
+                <topicref href="105.dita"/>
+                <topicref href="121.dita"/>
+                <topicref href="125.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell collection-type="family">
+                <topicref href="2.dita"/>
+                <topicref href="4.dita"/>
+                <topicref href="22.dita"/>
+                <topicref href="24.dita"/>
+                <topicref href="102.dita"/>
+                <topicref href="104.dita"/>
+                <topicref href="122.dita"/>
+                <topicref href="124.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell collection-type="family">
+                <topicref href="3.dita"/>
+                <topicref href="23.dita"/>
+                <topicref href="103.dita"/>
+                <topicref href="123.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell collection-type="family">
+                <topicref href="6.dita"/>
+                <topicref href="10.dita"/>
+                <topicref href="16.dita"/>
+                <topicref href="20.dita"/>
+                <topicref href="106.dita"/>
+                <topicref href="110.dita"/>
+                <topicref href="116.dita"/>
+                <topicref href="120.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell collection-type="family">
+                <topicref href="7.dita"/>
+                <topicref href="9.dita"/>
+                <topicref href="17.dita"/>
+                <topicref href="19.dita"/>
+                <topicref href="107.dita"/>
+                <topicref href="109.dita"/>
+                <topicref href="117.dita"/>
+                <topicref href="119.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell collection-type="family">
+                <topicref href="8.dita"/>
+                <topicref href="18.dita"/>
+                <topicref href="108.dita"/>
+                <topicref href="118.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell collection-type="family">
+                <topicref href="11.dita"/>
+                <topicref href="15.dita"/>
+                <topicref href="111.dita"/>
+                <topicref href="115.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell collection-type="family">
+                <topicref href="12.dita"/>
+                <topicref href="14.dita"/>
+                <topicref href="112.dita"/>
+                <topicref href="114.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell collection-type="family">
+                <topicref href="13.dita"/>
+                <topicref href="113.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell collection-type="family">
+                <topicref href="26.dita"/>
+                <topicref href="30.dita"/>
+                <topicref href="46.dita"/>
+                <topicref href="50.dita"/>
+                <topicref href="76.dita"/>
+                <topicref href="80.dita"/>
+                <topicref href="96.dita"/>
+                <topicref href="100.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell collection-type="family">
+                <topicref href="27.dita"/>
+                <topicref href="29.dita"/>
+                <topicref href="47.dita"/>
+                <topicref href="49.dita"/>
+                <topicref href="77.dita"/>
+                <topicref href="79.dita"/>
+                <topicref href="97.dita"/>
+                <topicref href="99.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell collection-type="family">
+                <topicref href="28.dita"/>
+                <topicref href="48.dita"/>
+                <topicref href="78.dita"/>
+                <topicref href="98.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell collection-type="family">
+                <topicref href="31.dita"/>
+                <topicref href="35.dita"/>
+                <topicref href="41.dita"/>
+                <topicref href="45.dita"/>
+                <topicref href="81.dita"/>
+                <topicref href="85.dita"/>
+                <topicref href="91.dita"/>
+                <topicref href="95.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell collection-type="family">
+                <topicref href="32.dita"/>
+                <topicref href="34.dita"/>
+                <topicref href="42.dita"/>
+                <topicref href="44.dita"/>
+                <topicref href="82.dita"/>
+                <topicref href="84.dita"/>
+                <topicref href="92.dita"/>
+                <topicref href="94.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell collection-type="family">
+                <topicref href="33.dita"/>
+                <topicref href="43.dita"/>
+                <topicref href="83.dita"/>
+                <topicref href="93.dita"/>
+
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell collection-type="family">
+                <topicref href="36.dita"/>
+                <topicref href="40.dita"/>
+                <topicref href="86.dita"/>
+                <topicref href="90.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell collection-type="family">
+                <topicref href="37.dita"/>
+                <topicref href="39.dita"/>
+                <topicref href="87.dita"/>
+                <topicref href="89.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell collection-type="family">
+                <topicref href="38.dita"/>
+                <topicref href="88.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell collection-type="family">
+                <topicref href="51.dita"/>
+                <topicref href="55.dita"/>
+                <topicref href="71.dita"/>
+                <topicref href="75.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell collection-type="family">
+                <topicref href="52.dita"/>
+                <topicref href="54.dita"/>
+                <topicref href="72.dita"/>
+                <topicref href="74.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell collection-type="family">
+                <topicref href="53.dita"/>
+                <topicref href="73.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell collection-type="family">
+                <topicref href="56.dita"/>
+                <topicref href="60.dita"/>
+                <topicref href="66.dita"/>
+                <topicref href="70.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell collection-type="family">
+                <topicref href="57.dita"/>
+                <topicref href="59.dita"/>
+                <topicref href="67.dita"/>
+                <topicref href="69.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell collection-type="family">
+                <topicref href="58.dita"/>
+                <topicref href="68.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell collection-type="family">
+                <topicref href="61.dita"/>
+                <topicref href="65.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell collection-type="family">
+                <topicref href="62.dita"/>
+                <topicref href="64.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell collection-type="family">
+                <topicref href="63.dita"/>
+            </relcell>
+        </relrow>
+    </reltable>
+</map>

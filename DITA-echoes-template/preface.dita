@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="preface">
+    <title>Preface</title>
+    <body>
+        <p>by John Tait</p>
+        <p>This DITA template is openly licensed via CC0 1.0 Universal.</p>
+    </body>
+</topic>
