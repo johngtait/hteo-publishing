@@ -1,0 +1,39 @@
+#! usr/bin/bash
+
+# This file cleans up DocBook XML and folders and creates an EPUB based on it. Your text editor (e.g. Mousepad) will ask you if you want to reload the file, because the script will change it.
+
+# Make this script executable with:
+# chmod u+x hteo
+# then run with:
+# bash hteo-shellscript
+
+echo "START"
+
+# Here is an easy way to handle curly quotes and aposprophes using ` and '.
+
+sed -i -e 's/`/‘/g' mybook.xml # left quote replacement - I can now just type a `
+sed -i -e 's/\x27/’/g' mybook.xml # right quote and apostrophe (same symbol) replacement - I can just type a '
+
+# Strangely, authentic ndash and mdash look the same in Mousepad editor. Here I choose to replace the strings NDASH and MDASH to the unicode characters (not the literal characters) in the XML to made them still distinguishable when writing. Conversion to HTML and EPUB further converts them to distingushable symbols so all remains well.
+
+sed -i -e 's/NDASH/\&#8211;/g' mybook.xml # replaces 'NDASH' with unicode - I can now just type NDASH
+sed -i -e 's/MDASH/\&#8212;/g' mybook.xml # replaces 'MDASH' with unicode - I can now just type MDASH
+
+# Here is an easy way to handle the ellipsis symbol by typing ELLIPSIS.
+
+sed -i -e 's/ELLIPSIS/…/g' book-2.xml # ellipsis replacement -  - I can now just type ELLIPSIS
+
+# EPUB preparation
+
+rm -r META-INF # clean away previous EPUB output
+rm -r OEBPS # clean away previous EPUB output
+
+xsltproc epub.xsl mybook.xml # produce EPUB files in two folders called META-INF and OEBPS (not zipped)
+
+zip -r -X test-book.epub mimetype META-INF OEBPS # zips those two folders, plus a mimetype file (essential, provided seperately) for EPUB
+
+sleep 2 # pauses to let it finish to ensure HTML generation appears last when files sorted by date
+
+xsltproc html.xsl mybook.xml # get HTML for easy checking
+
+echo "BYE"
