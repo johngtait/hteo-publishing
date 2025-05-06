@@ -3,7 +3,7 @@
 # This file cleans up DocBook XML and folders and creates an EPUB based on it. Your text editor (e.g. Mousepad) will ask you if you want to reload the file, because the script will change it.
 
 # Make this script executable with:
-# chmod u+x hteo
+# chmod u+x hteo-shellscript
 # then run with:
 # bash hteo-shellscript
 
