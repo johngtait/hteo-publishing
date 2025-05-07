@@ -151,11 +151,7 @@ rankdir="TB";
 "124" [label="124", shape=none];
 "125" [label="125", shape=none];
 
-// cut
 
-// Example of style only
-
-// "1" -> "5" [style=dotted, color=red, arrowhead="none"];
 
 // Groups
 
