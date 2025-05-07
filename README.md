@@ -1,2 +1,2 @@
 # hteo-publishing
-Hack the Edge Off publishing
+Resources for Hack the Edge Off publishing imprint.
