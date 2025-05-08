@@ -6,7 +6,7 @@
         <author>John Tait</author>
     </topicmeta>
     <topicref href="preface.dita"/>
-    <topicref href="the-echoes.dita" audience="internal"/>
+    <topicref href="the-echoes.dita" processing-role="resource-only"/>
     <topicref href="C1.dita">
         <topicref href="1.dita" locktitle="yes">
             <topicmeta>
@@ -642,5 +642,5 @@
             </topicmeta>
         </topicref>
     </topicref>
-    <mapref href="rel.ditamap"/>
+    <mapref href="rel.ditamap" processing-role="resource-only"/>
 </map>
