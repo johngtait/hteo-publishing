@@ -1,641 +1,644 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
-    <title>Echo DITA template</title>
+    <title>Echoplasm</title>
+    <topicmeta>
+        <author>John Tait</author>
+    </topicmeta>
     <topicref href="preface.dita"/>
     <topicref href="the-echoes.dita" audience="internal"/>
     <topicref href="C1.dita">
         <topicref href="1.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>1a (ONE.I.a)</navtitle>
+                <navtitle>1a (ONE.I.a) G1</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="2.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>2a (ONE.I.b)</navtitle>
+                <navtitle>2a (ONE.I.b) G2</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="3.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>3a (ONE.I.c)</navtitle>
+                <navtitle>3a (ONE.I.c) G3</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="4.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>4a (ONE.I.d)</navtitle>
+                <navtitle>4a (ONE.I.d) G2</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="5.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>5a (ONE.I.e)</navtitle>
+                <navtitle>5a (ONE.I.e) G1</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="6.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>6a (ONE.II.a)</navtitle>
+                <navtitle>6a (ONE.II.a) G4</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="7.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>7a (ONE.II.b)</navtitle>
+                <navtitle>7a (ONE.II.b) G5</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="8.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>8a (ONE.II.c)</navtitle>
+                <navtitle>8a (ONE.II.c) G6</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="9.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>9a (ONE.II.d)</navtitle>
+                <navtitle>9a (ONE.II.d) G5</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="10.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>10a (ONE.II.e)</navtitle>
+                <navtitle>10a (ONE.II.e) G4</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="11.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>11a (ONE.III.a)</navtitle>
+                <navtitle>11a (ONE.III.a) G7</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="12.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>12a (ONE.III.b)</navtitle>
+                <navtitle>12a (ONE.III.b) G8</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="13.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>13a (ONE.III.c)</navtitle>
+                <navtitle>13a (ONE.III.c) G9</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="14.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>14a (ONE.III.d)</navtitle>
+                <navtitle>14a (ONE.III.d) G8</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="15.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>15a (ONE.III.e)</navtitle>
+                <navtitle>15a (ONE.III.e) G7</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="16.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>16a (ONE.IV.a)</navtitle>
+                <navtitle>16a (ONE.IV.a) G4</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="17.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>17a (ONE.IV.b)</navtitle>
+                <navtitle>17a (ONE.IV.b) G5</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="18.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>18a (ONE.IV.c)</navtitle>
+                <navtitle>18a (ONE.IV.c) G6</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="19.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>19a (ONE.IV.d)</navtitle>
+                <navtitle>19a (ONE.IV.d) G5</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="20.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>20a (ONE.IV.e)</navtitle>
+                <navtitle>20a (ONE.IV.e) G4</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="21.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>21a (ONE.V.a)</navtitle>
+                <navtitle>21a (ONE.V.a) G1</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="22.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>22a (ONE.V.b)</navtitle>
+                <navtitle>22a (ONE.V.b) G2</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="23.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>23a (ONE.V.c)</navtitle>
+                <navtitle>23a (ONE.V.c) G3</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="24.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>24a (ONE.V.d)</navtitle>
+                <navtitle>24a (ONE.V.d) G2</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="25.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>25a (ONE.V.e)</navtitle>
+                <navtitle>25a (ONE.V.e) G1</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="26.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>26a (TWO.I.a)</navtitle>
+                <navtitle>26a (TWO.I.a) G10</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="27.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>27a (TWO.I.b)</navtitle>
+                <navtitle>27a (TWO.I.b) G11</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="28.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>28a (TWO.I.c)</navtitle>
+                <navtitle>28a (TWO.I.c) G12</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="29.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>29a (TWO.I.d)</navtitle>
+                <navtitle>29a (TWO.I.d) G11</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="30.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>30a (TWO.I.e)</navtitle>
+                <navtitle>30a (TWO.I.e) G10</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="31.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>31a (TWO.II.a)</navtitle>
+                <navtitle>31a (TWO.II.a) G13</navtitle>
             </topicmeta>
         </topicref>
     </topicref>
     <topicref href="C2.dita">
         <topicref href="32.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>1b 32 (TWO.II.b)</navtitle>
+                <navtitle>1b 32 (TWO.II.b) G14</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="33.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>2b 33 (TWO.II.c)</navtitle>
+                <navtitle>2b 33 (TWO.II.c) G15</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="34.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>3b 34 (TWO.II.d)</navtitle>
+                <navtitle>3b 34 (TWO.II.d) G14</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="35.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>4b 35 (TWO.II.e)</navtitle>
+                <navtitle>4b 35 (TWO.II.e) G13</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="36.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>5b 36 (TWO.III.a)</navtitle>
+                <navtitle>5b 36 (TWO.III.a) G16</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="37.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>6b 37 (TWO.III.b)</navtitle>
+                <navtitle>6b 37 (TWO.III.b) G17</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="38.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>7b 38 (TWO.III.c)</navtitle>
+                <navtitle>7b 38 (TWO.III.c) G18</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="39.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>8b 39 (TWO.III.d)</navtitle>
+                <navtitle>8b 39 (TWO.III.d) G17</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="40.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>9b 40 (TWO.III.e)</navtitle>
+                <navtitle>9b 40 (TWO.III.e) G16</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="41.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>10b 41 (TWO.IV.a)</navtitle>
+                <navtitle>10b 41 (TWO.IV.a) G13</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="42.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>11b 42 (TWO.IV.b)</navtitle>
+                <navtitle>11b 42 (TWO.IV.b) G14</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="43.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>12b 43 (TWO.IV.c)</navtitle>
+                <navtitle>12b 43 (TWO.IV.c) G15</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="44.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>13b 44 (TWO.IV.d)</navtitle>
+                <navtitle>13b 44 (TWO.IV.d) G14</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="45.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>14b 45 (TWO.IV.e)</navtitle>
+                <navtitle>14b 45 (TWO.IV.e) G13</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="46.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>15b 46 (TWO.V.a)</navtitle>
+                <navtitle>15b 46 (TWO.V.a) G10</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="47.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>16b 47 (TWO.V.b)</navtitle>
+                <navtitle>16b 47 (TWO.V.b) G11</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="48.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>17b 48 (TWO.V.c)</navtitle>
+                <navtitle>17b 48 (TWO.V.c) G12</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="49.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>18b 49 (TWO.V.d)</navtitle>
+                <navtitle>18b 49 (TWO.V.d) G11</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="50.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>19b 50 (TWO.V.e)</navtitle>
+                <navtitle>19b 50 (TWO.V.e) G10</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="51.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>20b 51 (THREE.I.a)</navtitle>
+                <navtitle>20b 51 (THREE.I.a) G19</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="52.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>21b 52 (THREE.I.b)</navtitle>
+                <navtitle>21b 52 (THREE.I.b) G20</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="53.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>22b 53 (THREE.I.c)</navtitle>
+                <navtitle>22b 53 (THREE.I.c) G21</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="54.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>23b 54 (THREE.I.d)</navtitle>
+                <navtitle>23b 54 (THREE.I.d) G20</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="55.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>24b 55 (THREE.I.e)</navtitle>
+                <navtitle>24b 55 (THREE.I.e) G19</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="56.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>25b 56 (THREE.II.a)</navtitle>
+                <navtitle>25b 56 (THREE.II.a) G22</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="57.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>26b 57 (THREE.II.b)</navtitle>
+                <navtitle>26b 57 (THREE.II.b) G23</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="58.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>27b 58 (THREE.II.c)</navtitle>
+                <navtitle>27b 58 (THREE.II.c) G24</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="59.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>28b 59 (THREE.II.d)</navtitle>
+                <navtitle>28b 59 (THREE.II.d) G23</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="60.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>29b 60 (THREE.II.e)</navtitle>
+                <navtitle>29b 60 (THREE.II.e) G22</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="61.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>30b 61 (THREE.III.a)</navtitle>
+                <navtitle>30b 61 (THREE.III.a) G25</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="62.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>31b 62 (THREE.III.b)</navtitle>
+                <navtitle>31b 62 (THREE.III.b) G26</navtitle>
             </topicmeta>
         </topicref>
     </topicref>
     <topicref href="C3.dita">
         <topicref href="63.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>1c 63 (THREE.III.c)</navtitle>
+                <navtitle>1c 63 (THREE.III.c) G27</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="64.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>2c 64 (THREE.III.d)</navtitle>
+                <navtitle>2c 64 (THREE.III.d) G26</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="65.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>3c 65 (THREE.III.e)</navtitle>
+                <navtitle>3c 65 (THREE.III.e) G25</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="66.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>4c 66 (THREE.IV.a)</navtitle>
+                <navtitle>4c 66 (THREE.IV.a) G22</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="67.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>5c 67 (THREE.IV.b)</navtitle>
+                <navtitle>5c 67 (THREE.IV.b) G23</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="68.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>6c 68 (THREE.IV.c)</navtitle>
+                <navtitle>6c 68 (THREE.IV.c) G24</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="69.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>7c 69 (THREE.IV.d)</navtitle>
+                <navtitle>7c 69 (THREE.IV.d) G23</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="70.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>8c 70 (THREE.IV.e)</navtitle>
+                <navtitle>8c 70 (THREE.IV.e) G22</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="71.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>9c 71 (THREE.V.a)</navtitle>
+                <navtitle>9c 71 (THREE.V.a) G19</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="72.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>10c 72 (THREE.V.b)</navtitle>
+                <navtitle>10c 72 (THREE.V.b) G20</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="73.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>11c 73 (THREE.V.c)</navtitle>
+                <navtitle>11c 73 (THREE.V.c) G21</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="74.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>12c 74 (THREE.V.d)</navtitle>
+                <navtitle>12c 74 (THREE.V.d) G20</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="75.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>13c 75 (THREE.V.e)</navtitle>
+                <navtitle>13c 75 (THREE.V.e) G19</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="76.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>14c 76 (FOUR.I.a)</navtitle>
+                <navtitle>14c 76 (FOUR.I.a) G10</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="77.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>15c 77 (FOUR.I.b)</navtitle>
+                <navtitle>15c 77 (FOUR.I.b) G11</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="78.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>16c 78 (FOUR.I.c)</navtitle>
+                <navtitle>16c 78 (FOUR.I.c) G12</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="79.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>17c 79 (FOUR.I.d)</navtitle>
+                <navtitle>17c 79 (FOUR.I.d) G11</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="80.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>18c 80 (FOUR.I.e)</navtitle>
+                <navtitle>18c 80 (FOUR.I.e) G10</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="81.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>19c 81 (FOUR.II.a)</navtitle>
+                <navtitle>19c 81 (FOUR.II.a) G13</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="82.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>20c 82 (FOUR.II.b)</navtitle>
+                <navtitle>20c 82 (FOUR.II.b) G14</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="83.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>21c 83 (FOUR.II.c)</navtitle>
+                <navtitle>21c 83 (FOUR.II.c) G15</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="84.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>22c 84 (FOUR.II.d)</navtitle>
+                <navtitle>22c 84 (FOUR.II.d) G14</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="85.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>23c 85 (FOUR.II.e)</navtitle>
+                <navtitle>23c 85 (FOUR.II.e) G13</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="86.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>24c 86 (FOUR.III.a)</navtitle>
+                <navtitle>24c 86 (FOUR.III.a) G16</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="87.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>25c 87 (FOUR.III.b)</navtitle>
+                <navtitle>25c 87 (FOUR.III.b) G17</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="88.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>26c 88 (FOUR.III.c)</navtitle>
+                <navtitle>26c 88 (FOUR.III.c) G18</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="89.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>27c 89 (FOUR.III.d)</navtitle>
+                <navtitle>27c 89 (FOUR.III.d) G17</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="90.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>28c 90 (FOUR.III.e)</navtitle>
+                <navtitle>28c 90 (FOUR.III.e) G16</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="91.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>29c 91 (FOUR.IV.a)</navtitle>
+                <navtitle>29c 91 (FOUR.IV.a) G13</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="92.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>30c 92 (FOUR.IV.b)</navtitle>
+                <navtitle>30c 92 (FOUR.IV.b) G14</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="93.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>31c 93 (FOUR.IV.c)</navtitle>
+                <navtitle>31c 93 (FOUR.IV.c) G15</navtitle>
             </topicmeta>
         </topicref>
     </topicref>
     <topicref href="C4.dita">
         <topicref href="94.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>1d 94 (FOUR.IV.d)</navtitle>
+                <navtitle>1d 94 (FOUR.IV.d) G14</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="95.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>2d 95 (FOUR.IV.e)</navtitle>
+                <navtitle>2d 95 (FOUR.IV.e) G13</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="96.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>3d 96 (FOUR.V.a)</navtitle>
+                <navtitle>3d 96 (FOUR.V.a) G10</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="97.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>4d 97 (FOUR.V.b)</navtitle>
+                <navtitle>4d 97 (FOUR.V.b) G11</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="98.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>5d 98 (FOUR.V.c)</navtitle>
+                <navtitle>5d 98 (FOUR.V.c) G12</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="99.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>6d 99 (FOUR.V.d)</navtitle>
+                <navtitle>6d 99 (FOUR.V.d) G11</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="100.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>7d 100 (FOUR.V.e)</navtitle>
+                <navtitle>7d 100 (FOUR.V.e) G10</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="101.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>8d 101 (FIVE.I.a)</navtitle>
+                <navtitle>8d 101 (FIVE.I.a) G1</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="102.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>9d 102 (FIVE.I.b)</navtitle>
+                <navtitle>9d 102 (FIVE.I.b) G2</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="103.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>10d 103 (FIVE.I.c)</navtitle>
+                <navtitle>10d 103 (FIVE.I.c) G3</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="104.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>11d 104 (FIVE.I.d)</navtitle>
+                <navtitle>11d 104 (FIVE.I.d) G2</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="105.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>12d 105 (FIVE.I.e)</navtitle>
+                <navtitle>12d 105 (FIVE.I.e) G1</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="106.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>13d 106 (FIVE.II.a)</navtitle>
+                <navtitle>13d 106 (FIVE.II.a) G4</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="107.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>14d 107 (FIVE.II.b)</navtitle>
+                <navtitle>14d 107 (FIVE.II.b) G5</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="108.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>15d 108 (FIVE.II.c)</navtitle>
+                <navtitle>15d 108 (FIVE.II.c) G6</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="109.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>16d 109 (FIVE.II.d)</navtitle>
+                <navtitle>16d 109 (FIVE.II.d) G5</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="110.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>17d 110 (FIVE.II.e)</navtitle>
+                <navtitle>17d 110 (FIVE.II.e) G4</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="111.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>18d 111 (FIVE.III.a)</navtitle>
+                <navtitle>18d 111 (FIVE.III.a) G7</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="112.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>19d 112 (FIVE.III.b)</navtitle>
+                <navtitle>19d 112 (FIVE.III.b) G8</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="113.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>20d 113 (FIVE.III.c)</navtitle>
+                <navtitle>20d 113 (FIVE.III.c) G9</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="114.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>21d 114 (FIVE.III.d)</navtitle>
+                <navtitle>21d 114 (FIVE.III.d) G8</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="115.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>22d 115 (FIVE.III.e)</navtitle>
+                <navtitle>22d 115 (FIVE.III.e) G7</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="116.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>23d 116 (FIVE.IV.a)</navtitle>
+                <navtitle>23d 116 (FIVE.IV.a) G4</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="117.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>24d 117 (FIVE.IV.b)</navtitle>
+                <navtitle>24d 117 (FIVE.IV.b) G5</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="118.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>25d 118 (FIVE.IV.c)</navtitle>
+                <navtitle>25d 118 (FIVE.IV.c) G6</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="119.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>26d 119 (FIVE.IV.d)</navtitle>
+                <navtitle>26d 119 (FIVE.IV.d) G5</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="120.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>27d 120 (FIVE.IV.e)</navtitle>
+                <navtitle>27d 120 (FIVE.IV.e) G4</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="121.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>28d 121 (FIVE.V.a)</navtitle>
+                <navtitle>28d 121 (FIVE.V.a) G1</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="122.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>29d 122 (FIVE.V.b)</navtitle>
+                <navtitle>29d 122 (FIVE.V.b) G2</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="123.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>30d 123 (FIVE.V.c)</navtitle>
+                <navtitle>30d 123 (FIVE.V.c) G3</navtitle>
             </topicmeta>
         </topicref>
         <topicref href="124.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>31d 124 (FIVE.V.d)</navtitle>
+                <navtitle>31d 124 (FIVE.V.d) G2</navtitle>
             </topicmeta>
         </topicref>
     </topicref>
     <topicref href="C5.dita">
         <topicref href="125.dita" locktitle="yes">
             <topicmeta>
-                <navtitle>Epilogue 125 (FIVE.V.e)</navtitle>
+                <navtitle>Epilogue 125 (FIVE.V.e) G1</navtitle>
             </topicmeta>
         </topicref>
     </topicref>
