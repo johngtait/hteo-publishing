@@ -1,4 +1,4 @@
-#LyX 2.4 created this file. For more info see https://www.lyx.org/
+#LyX 2.4 created this file, amended by John Tait. For more info see https://www.lyx.org/
 \lyxformat 620
 \begin_document
 \begin_header
@@ -18,7 +18,7 @@
 % John's adjustments
 %\setlength{\parskip}{\smallskipamount}
 \setlength{\parindent}{12pt}
-% end John's ajustments
+% end John's adjustments
 %
 \end_preamble
 \use_default_options true
