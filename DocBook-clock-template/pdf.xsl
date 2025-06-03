@@ -14,10 +14,22 @@ fop -fo output.fo -pdf document.pdf -->
 
 <xsl:import href="/usr/share/xml/docbook/stylesheet/docbook-xsl-ns/fo/docbook.xsl"/>
 
+<xsl:param name="show.comments" select="0"></xsl:param>
+    
 <xsl:param name="index.on.type">1</xsl:param>
 <xsl:param name="glossterm.auto.link">1</xsl:param>
 
-<xsl:param name="paper.type">A4</xsl:param>
+<xsl:param name="paper.type">USletter</xsl:param>
+
+<!-- Not tested on command line but good for Lulu PDF print. Can change to A4 -->  
+
+<!-- Below not tested on command line -->
+
+<xsl:param name="body.font.master">12</xsl:param>
+<xsl:param name="body.font.size">
+ <xsl:value-of select="$body.font.master"></xsl:value-of><xsl:text>pt</xsl:text>
+</xsl:param>  
+    
 <xsl:param name="page.orientation">portrait</xsl:param>
 
 <xsl:param name="chapter.autolabel">0</xsl:param>
