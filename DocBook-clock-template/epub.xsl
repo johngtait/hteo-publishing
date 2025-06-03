@@ -23,7 +23,7 @@
 
 <!--  HOW IT WORKS -->
 
-<!-- This customisation layer imports the generic EPUB XSL file on your computer below-->
+<!-- This customisation layer imports the generic EPUB XSL file on your computer below -->
 <!-- It does most of the work -->
 <!-- There are lots of variant file in the stylesheet folders but this one works -->
 
@@ -40,7 +40,7 @@
 <xsl:param name="part.autolabel" select="0"></xsl:param>
 <xsl:param name="section.autolabel">0</xsl:param>
 
-<!-- Generate no toc since epub doesn't need it and distributers might reject book if present-->
+<!-- Generate no toc since epub doesn't need it and distributers might reject book if present -->
 <!-- You still seem to get a file but it doesn't get linked -->
 
 <xsl:param name="generate.toc" select="'book nop'"/>
@@ -50,8 +50,9 @@
 <xsl:param name="index.on.type">1</xsl:param>
 <xsl:param name="glossterm.auto.link">1</xsl:param>
 
+<!-- Not yet tested on command line, removes remark elements -->
 
-<!-- PLACEHOLDER-->
+<xsl:param name="show.comments" select="0"></xsl:param>
 
 
 <!-- over -->
