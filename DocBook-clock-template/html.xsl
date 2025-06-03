@@ -33,4 +33,6 @@
 
 <xsl:param name="writing.mode" select="lr-tb"></xsl:param>
 
+<xsl:param name="show.comments" select="0"></xsl:param>
+
 </xsl:stylesheet>
