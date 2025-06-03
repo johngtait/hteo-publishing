@@ -473,11 +473,11 @@ rankdir=RL;
 
 // Book Four Act I scenes //
 
-"BIVAISI" [label="Scene 76\nACT I:\nINITIATION", shape=none];
-"BIVAISII" [label="Scene 77\nACT II:\nCONFRONTATION", shape=none];
-"BIVAISIII" [label="Scene 78\nACT III:\nTURNING", shape=none];
-"BIVAISIV" [label="Scene 79\nACT IV:\nRECKONING", shape=none];
-"BIVAISV" [label="Scene 80\nACT V:\nAFTERMATH", shape=none];
+"BIVAISI" [label="Scene 76\na:\nINITIATION", shape=none];
+"BIVAISII" [label="Scene 77\nb:\nCONFRONTATION", shape=none];
+"BIVAISIII" [label="Scene 78\nc:\nTURNING", shape=none];
+"BIVAISIV" [label="Scene 79\nd:\nRECKONING", shape=none];
+"BIVAISV" [label="Scene 80\ne:\nAFTERMATH", shape=none];
 
 
 // Book Four Act I to its scenes //
