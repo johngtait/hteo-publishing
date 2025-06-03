@@ -1,0 +1,411 @@
+// This is code for visualising Echoes
+
+// ---------------------------
+// ----- by John Tait !! -----
+// ---------------------------
+
+
+digraph G {
+
+/// for sfpd...
+
+beautify=true;
+smoothing=true;
+
+
+/// neato separation: default +3
+
+// esep=0.7;
+// sep=1;
+
+overlap=scale;
+splines=true;
+// clusters=dotted;
+// ordering=out;
+// ranksep = "4";
+rankdir="TB";
+
+"1" [label="", shape=star, penwidth=5];
+"2" [label="", shape=circle, penwidth=5];
+"3" [label="", shape=circle, penwidth=5];
+"4" [label="", shape=circle, penwidth=5];
+"5" [label="", shape=circle, penwidth=5];
+"6" [label="", shape=circle, penwidth=5];
+"7" [label="", shape=circle, penwidth=5];
+"8" [label="", shape=circle, penwidth=5];
+"9" [label="", shape=circle, penwidth=5];
+"10" [label="", shape=circle, penwidth=5];
+"11" [label="", shape=circle, penwidth=5];
+"12" [label="", shape=circle, penwidth=5];
+"13" [label="", shape=circle, penwidth=5];
+"14" [label="", shape=circle, penwidth=5];
+"15" [label="", shape=circle, penwidth=5];
+"16" [label="", shape=circle, penwidth=5];
+"17" [label="", shape=circle, penwidth=5];
+"18" [label="", shape=circle, penwidth=5];
+"19" [label="", shape=circle, penwidth=5];
+"20" [label="", shape=circle, penwidth=5];
+"21" [label="", shape=circle, penwidth=5];
+"22" [label="", shape=circle, penwidth=5];
+"23" [label="", shape=circle, penwidth=5];
+"24" [label="", shape=circle, penwidth=5];
+"25" [label="", shape=circle, penwidth=5];
+"26" [label="", shape=circle, penwidth=5];
+"27" [label="", shape=circle, penwidth=5];
+"28" [label="", shape=circle, penwidth=5];
+"29" [label="", shape=circle, penwidth=5];
+"30" [label="", shape=circle, penwidth=5];
+"31" [label="", shape=circle, penwidth=5];
+"32" [label="", shape=circle, penwidth=5];
+"33" [label="", shape=circle, penwidth=5];
+"34" [label="", shape=circle, penwidth=5];
+"35" [label="", shape=circle, penwidth=5];
+"36" [label="", shape=circle, penwidth=5];
+"37" [label="", shape=circle, penwidth=5];
+"38" [label="", shape=circle, penwidth=5];
+"39" [label="", shape=circle, penwidth=5];
+"40" [label="", shape=circle, penwidth=5];
+"41" [label="", shape=circle, penwidth=5];
+"42" [label="", shape=circle, penwidth=5];
+"43" [label="", shape=circle, penwidth=5];
+"44" [label="", shape=circle, penwidth=5];
+"45" [label="", shape=circle, penwidth=5];
+"46" [label="", shape=circle, penwidth=5];
+"47" [label="", shape=circle, penwidth=5];
+"48" [label="", shape=circle, penwidth=5];
+"49" [label="", shape=circle, penwidth=5];
+"50" [label="", shape=circle, penwidth=5];
+"51" [label="", shape=circle, penwidth=5];
+"52" [label="", shape=circle, penwidth=5];
+"53" [label="", shape=circle, penwidth=5];
+"54" [label="", shape=circle, penwidth=5];
+"55" [label="", shape=circle, penwidth=5];
+"56" [label="", shape=circle, penwidth=5];
+"57" [label="", shape=circle, penwidth=5];
+"58" [label="", shape=circle, penwidth=5];
+"59" [label="", shape=circle, penwidth=5];
+"60" [label="", shape=circle, penwidth=5];
+"61" [label="", shape=circle, penwidth=5];
+"62" [label="", shape=circle, penwidth=5];
+"63" [label="", shape=circle, penwidth=5];
+"64" [label="", shape=circle, penwidth=5];
+"65" [label="", shape=circle, penwidth=5];
+"66" [label="", shape=circle, penwidth=5];
+"67" [label="", shape=circle, penwidth=5];
+"68" [label="", shape=circle, penwidth=5];
+"69" [label="", shape=circle, penwidth=5];
+"70" [label="", shape=circle, penwidth=5];
+"71" [label="", shape=circle, penwidth=5];
+"72" [label="", shape=circle, penwidth=5];
+"73" [label="", shape=circle, penwidth=5];
+"74" [label="", shape=circle, penwidth=5];
+"75" [label="", shape=circle, penwidth=5];
+"76" [label="", shape=circle, penwidth=5];
+"77" [label="", shape=circle, penwidth=5];
+"78" [label="", shape=circle, penwidth=5];
+"79" [label="", shape=circle, penwidth=5];
+"80" [label="", shape=circle, penwidth=5];
+"81" [label="", shape=circle, penwidth=5];
+"82" [label="", shape=circle, penwidth=5];
+"83" [label="", shape=circle, penwidth=5];
+"84" [label="", shape=circle, penwidth=5];
+"85" [label="", shape=circle, penwidth=5];
+"86" [label="", shape=circle, penwidth=5];
+"87" [label="", shape=circle, penwidth=5];
+"88" [label="", shape=circle, penwidth=5];
+"89" [label="", shape=circle, penwidth=5];
+"90" [label="", shape=circle, penwidth=5];
+"91" [label="", shape=circle, penwidth=5];
+"92" [label="", shape=circle, penwidth=5];
+"93" [label="", shape=circle, penwidth=5];
+"94" [label="", shape=circle, penwidth=5];
+"95" [label="", shape=circle, penwidth=5];
+"96" [label="", shape=circle, penwidth=5];
+"97" [label="", shape=circle, penwidth=5];
+"98" [label="", shape=circle, penwidth=5];
+"99" [label="", shape=circle, penwidth=5];
+"100" [label="", shape=circle, penwidth=5];
+"101" [label="", shape=circle, penwidth=5];
+"102" [label="", shape=circle, penwidth=5];
+"103" [label="", shape=circle, penwidth=5];
+"104" [label="", shape=circle, penwidth=5];
+"105" [label="", shape=circle, penwidth=5];
+"106" [label="", shape=circle, penwidth=5];
+"107" [label="", shape=circle, penwidth=5];
+"108" [label="", shape=circle, penwidth=5];
+"109" [label="", shape=circle, penwidth=5];
+"110" [label="", shape=circle, penwidth=5];
+"111" [label="", shape=circle, penwidth=5];
+"112" [label="", shape=circle, penwidth=5];
+"113" [label="", shape=circle, penwidth=5];
+"114" [label="", shape=circle, penwidth=5];
+"115" [label="", shape=circle, penwidth=5];
+"116" [label="", shape=circle, penwidth=5];
+"117" [label="", shape=circle, penwidth=5];
+"118" [label="", shape=circle, penwidth=5];
+"119" [label="", shape=circle, penwidth=5];
+"120" [label="", shape=circle, penwidth=5];
+"121" [label="", shape=circle, penwidth=5];
+"122" [label="", shape=circle, penwidth=5];
+"123" [label="", shape=circle, penwidth=5];
+"124" [label="", shape=circle, penwidth=5];
+"125" [label="", shape=star, penwidth=5];
+
+
+
+// Groups
+
+// 1	AAA	★	1 5 21 25 101 105 121 125
+// 2	AAB		2 4 22 24 102 104 122 124
+// 3	AAX		3 23 103 123
+// 4	ABA		6 10 16 20 106 110 116 120
+// 5	ABB		7 9 17 19 107 109 117 119
+// 6	ABX		8 18 108 118
+// 7	AXA		11 15 111 115
+// 8	AXB		12 14 112 114
+// 9	AXX		13 113
+
+// 10	BAA		26 30 46 50 76 80 96 100
+// 11	BAB		27 29 47 49 77 79 97 99
+// 12	BAX		28 48 78 98
+// 13	BBA		31 35 41 45 81 85 91 95
+// 14	BBB	★	32 34 42 44 82 84 92 94
+// 15	BBX		33 43 83 93
+// 16	BXA		36 40 86 90
+// 17	BXB		37 39 87 89
+// 18	BXX		38 88
+
+// 19	XAA		51 55 71 75
+// 20	XAB		52 54 72 74
+// 21	XAX		53 73
+// 22	XBA		56 60 66 70
+// 23	XBB		57 59 67 69
+// 24	XBX		58 68
+// 25	XXA		61 65
+// 26	XXB		2 64
+// 27	XXX	★	63
+
+
+"G1" [style=invis];
+"G2" [style=invis];
+"G3" [style=invis];
+"G4" [style=invis];
+"G5" [style=invis];
+"G6" [style=invis];
+"G7" [style=invis];
+"G8" [style=invis];
+"G9" [style=invis];
+"G10" [style=invis];
+"G11" [style=invis];
+"G12" [style=invis];
+"G13" [style=invis];
+"G14" [style=invis];
+"G15" [style=invis];
+"G16" [style=invis];
+"G17" [style=invis];
+"G18" [style=invis];
+"G19" [style=invis];
+"G20" [style=invis];
+"G21" [style=invis];
+"G22" [style=invis];
+"G23" [style=invis];
+"G24" [style=invis];
+"G25" [style=invis];
+"G26" [style=invis];
+"G27" [style=invis];
+
+// "GROUPS" [label="Groups", shape=square, root="true"];
+
+/// Groups 1 to 9
+
+"1" -> "G1" [style=invis];
+"5" -> "G1" [style=invis];
+"21" -> "G1" [style=invis];
+"25" -> "G1" [style=invis];
+"101" -> "G1" [style=invis];
+"105" -> "G1" [style=invis];
+"121" -> "G1" [style=invis];
+"125" -> "G1" [style=invis];
+
+"2" -> "G2" [style=invis];
+"4" -> "G2" [style=invis];
+"22" -> "G2" [style=invis];
+"24" -> "G2" [style=invis];
+"102" -> "G2" [style=invis];
+"104" -> "G2" [style=invis];
+"122" -> "G2" [style=invis];
+"124" -> "G2" [style=invis];
+
+"3" -> "G3" [style=invis];
+"23" -> "G3" [style=invis];
+"103" -> "G3" [style=invis];
+"123" -> "G3" [style=invis];
+
+"6" -> "G4" [style=invis];
+"10" -> "G4" [style=invis];
+"16" -> "G4" [style=invis];
+"20" -> "G4" [style=invis];
+"106" -> "G4" [style=invis];
+"110" -> "G4" [style=invis];
+"116" -> "G4" [style=invis];
+"120" -> "G4" [style=invis];
+
+"7" -> "G5" [style=invis];
+"9" -> "G5" [style=invis];
+"17" -> "G5" [style=invis];
+"19" -> "G5" [style=invis];
+"107" -> "G5" [style=invis];
+"109" -> "G5" [style=invis];
+"117" -> "G5" [style=invis];
+"119" -> "G5" [style=invis];
+
+"8" -> "G6" [style=invis];
+"18" -> "G6" [style=invis];
+"108" -> "G6" [style=invis];
+"118" -> "G6" [style=invis];
+
+"11" -> "G7" [style=invis];
+"15" -> "G7" [style=invis];
+"111" -> "G7" [style=invis];
+"115" -> "G7" [style=invis];
+
+"12" -> "G8" [style=invis];
+"14" -> "G8" [style=invis];
+"112" -> "G8" [style=invis];
+"114" -> "G8" [style=invis];
+
+"13" -> "G9" [style=invis];
+"113" -> "G9" [style=invis];
+
+///////////////////////////////////////////
+
+// Groups 10 to 18
+
+"26" -> "G10" [style=invis];
+"30" -> "G10" [style=invis];
+"46" -> "G10" [style=invis];
+"50" -> "G10" [style=invis];
+"76" -> "G10" [style=invis];
+"80" -> "G10" [style=invis];
+"96" -> "G10" [style=invis];
+"100" -> "G10" [style=invis];
+
+"27" -> "G11" [style=invis];
+"29" -> "G11" [style=invis];
+"47" -> "G11" [style=invis];
+"49" -> "G11" [style=invis];
+"77" -> "G11" [style=invis];
+"79" -> "G11" [style=invis];
+"97" -> "G11" [style=invis];
+"99" -> "G11" [style=invis];
+
+"28" -> "G12" [style=invis];
+"48" -> "G12" [style=invis];
+"78" -> "G12" [style=invis];
+"98" -> "G12" [style=invis];
+
+"31" -> "G13" [style=invis];
+"35" -> "G13" [style=invis];
+"41" -> "G13" [style=invis];
+"45" -> "G13" [style=invis];
+"81" -> "G13" [style=invis];
+"85" -> "G13" [style=invis];
+"91" -> "G13" [style=invis];
+"95" -> "G13" [style=invis];
+
+"32" -> "G14" [style=invis];
+"34" -> "G14" [style=invis];
+"42" -> "G14" [style=invis];
+"44" -> "G14" [style=invis];
+"82" -> "G14" [style=invis];
+"84" -> "G14" [style=invis];
+"92" -> "G14" [style=invis];
+"94" -> "G14" [style=invis];
+
+"33" -> "G15" [style=invis];
+"43" -> "G15" [style=invis];
+"83" -> "G15" [style=invis];
+"93" -> "G15" [style=invis];
+
+"36" -> "G16" [style=invis];
+"40" -> "G16" [style=invis];
+"86" -> "G16" [style=invis];
+"90" -> "G16" [style=invis];
+
+"37" -> "G17" [style=invis];
+"39" -> "G17" [style=invis];
+"87" -> "G17" [style=invis];
+"89" -> "G17" [style=invis];
+
+"38" -> "G18" [style=invis];
+"88" -> "G18" [style=invis];
+
+// Groups 19 to 27
+
+"51" -> "G19" [style=invis];
+"55" -> "G19" [style=invis];
+"71" -> "G19" [style=invis];
+"75" -> "G19" [style=invis];
+
+"52" -> "G20" [style=invis];
+"54" -> "G20" [style=invis];
+"72" -> "G20" [style=invis];
+"74" -> "G20" [style=invis];
+
+"53" -> "G21" [style=invis];
+"73" -> "G21" [style=invis];
+
+"56" -> "G22" [style=invis];
+"60" -> "G22" [style=invis];
+"66" -> "G22" [style=invis];
+"70" -> "G22" [style=invis];
+
+"57" -> "G23" [style=invis];
+"59" -> "G23" [style=invis];
+"67" -> "G23" [style=invis];
+"69" -> "G23" [style=invis];
+
+"58" -> "G24" [style=invis];
+"68" -> "G24" [style=invis];
+
+"61" -> "G25" [style=invis];
+"65" -> "G25" [style=invis];
+
+"62" -> "G26" [style=invis];
+"64" -> "G26" [style=invis];
+
+"63" -> "G27" [style=invis];
+
+// "G1" -> "GROUPS" [style=dotted, color=blue, arrowhead="none"];
+// "G2" -> "GROUPS" [style=dotted, color=blue, arrowhead="none"];
+// "G3" -> "GROUPS" [style=dotted, color=blue, arrowhead="none"];
+// "G4" -> "GROUPS" [style=dotted, color=blue, arrowhead="none"];
+// "G5" -> "GROUPS" [style=dotted, color=blue, arrowhead="none"];
+// "G6" -> "GROUPS" [style=dotted, color=blue, arrowhead="none"];
+// "G7" -> "GROUPS" [style=dotted, color=blue, arrowhead="none"];
+// "G8" -> "GROUPS" [style=dotted, color=blue, arrowhead="none"];
+// "G9" -> "GROUPS" [style=dotted, color=blue, arrowhead="none"];
+// "G10" -> "GROUPS" [style=dotted, color=blue, arrowhead="none"];
+// "G11" -> "GROUPS" [style=dotted, color=blue, arrowhead="none"];
+// "G12" -> "GROUPS" [style=dotted, color=blue, arrowhead="none"];
+// "G13" -> "GROUPS" [style=dotted, color=blue, arrowhead="none"];
+// "G14" -> "GROUPS" [style=dotted, color=blue, arrowhead="none"];
+// "G15" -> "GROUPS" [style=dotted, color=blue, arrowhead="none"];
+// "G16" -> "GROUPS" [style=dotted, color=blue, arrowhead="none"];
+// "G17" -> "GROUPS" [style=dotted, color=blue, arrowhead="none"];
+// "G18" -> "GROUPS" [style=dotted, color=blue, arrowhead="none"];
+// "G19" -> "GROUPS" [style=dotted, color=blue, arrowhead="none"];
+// "G20" -> "GROUPS" [style=dotted, color=blue, arrowhead="none"];
+// "G21" -> "GROUPS" [style=dotted, color=blue, arrowhead="none"];
+// "G22" -> "GROUPS" [style=dotted, color=blue, arrowhead="none"];
+// "G23" -> "GROUPS" [style=dotted, color=blue, arrowhead="none"];
+// "G24" -> "GROUPS" [style=dotted, color=blue, arrowhead="none"];
+// "G25" -> "GROUPS" [style=dotted, color=blue, arrowhead="none"];
+// "G26" -> "GROUPS" [style=dotted, color=blue, arrowhead="none"];
+// "G27" -> "GROUPS" [style=dotted, color=blue, arrowhead="none"];
+
+// Chain
+
+"1" -> "2" -> "3" -> "4" -> "5" -> "6" -> "7" -> "8" -> "9" -> "10" -> "11" -> "12" -> "13"-> "14"-> "15" -> "16"-> "17"-> "18"-> "19"-> "20" -> "21" -> "22" -> "23" -> "24" -> "25" -> "26" -> "27" -> "28" -> "29" -> "30" -> "31" -> "32" -> "33" -> "34" -> "35" -> "36" -> "37" -> "38" -> "39" -> "40" -> "41" -> "42" -> "43" -> "44" -> "45" -> "46" -> "47" -> "48" -> "49" -> "50" -> "51" -> "52" -> "53" -> "54" -> "55" -> "56" -> "57" -> "58" -> "59" -> "60" -> "61" -> "62" -> "63" -> "64" -> "65" -> "66" -> "67" -> "68" -> "69" -> "70" -> "71" -> "72" -> "73" -> "74" -> "75" -> "76" -> "77" -> "78" -> "79" -> "80" -> "81" -> "82" -> "83" -> "84" -> "85" -> "86" -> "87" -> "88" -> "89" -> "90" -> "91" -> "92" -> "93" -> "94" -> "95" -> "96" -> "97" -> "98" -> "99" -> "100"-> "101" -> "102" -> "103" -> "104" -> "105" -> "106" -> "107" -> "108" -> "109" -> "110" -> "111" -> "112" -> "113" -> "114" -> "115" -> "116" -> "117" -> "118" -> "119" -> "120" -> "121" -> "122" -> "123" -> "124" -> "125" [penwidth=5, color=grey60, arrowhead=none];
+
+}
