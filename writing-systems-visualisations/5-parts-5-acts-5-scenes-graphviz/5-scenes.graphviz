@@ -1,0 +1,71 @@
+// This is code for Clock visualisations
+
+// ---------------------------
+// ----- by John Tait !! -----
+// ---------------------------
+
+
+digraph G {
+
+/// for sfpd...
+
+beautify=true;
+smoothing=true;
+
+
+/// neato separation: default +3
+
+esep=0.7
+sep=1;
+
+overlap=scale;
+splines=true;
+// clusters=dotted;
+// ordering=out;
+// ranksep = "4";
+rankdir=RL;
+
+
+
+
+
+/////////////////////////////////////////////////////
+
+// ---------- BOOK ONE -------  //
+
+/////////////////////////////////////////////////////
+
+// Book One Acts //
+
+
+"BIAI" [label="ACT I:\nINITIATION", shape=none];
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+// Book One Act I scenes //
+
+
+"BIAISI" [label="SCENE a\nINITIATION", shape=none];
+"BIAISII" [label="SCENE b\nCONFRONTATION", shape=none];
+"BIAISIII" [label="SCENE c\nTURNING", shape=none];
+"BIAISIV" [label="SCENE d\nRECKONING", shape=none];
+"BIAISV" [label="SCENE e\nAFTERMATH", shape=none];
+
+
+// Book One Act I to its scenes //
+
+"BIAI" -> "BIAISI" [color=grey60, arrowhead=none, minlen=3];
+"BIAI" -> "BIAISII" [color=grey60, arrowhead=none, minlen=2];
+"BIAI" -> "BIAISIII" [color=grey60, arrowhead=none, minlen=1];
+"BIAI" -> "BIAISIV" [color=grey60, arrowhead=none, minlen=2];
+"BIAI" -> "BIAISV" [color=grey60, arrowhead=none, minlen=3];
+
+
+////////////////////////////////////////////////////
+
+
+}

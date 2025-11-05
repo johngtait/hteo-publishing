@@ -1,0 +1,49 @@
+// This is code for Clock visualisations
+
+// ---------------------------
+// ----- by John Tait !! -----
+// ---------------------------
+
+
+digraph G {
+
+/// for sfpd...
+
+beautify=true;
+smoothing=true;
+
+
+/// neato separation: default +3
+
+esep=0.7
+sep=1;
+
+overlap=scale;
+splines=true;
+// clusters=dotted;
+// ordering=out;
+// ranksep = "4";
+rankdir=RL;
+
+// Manuscript //
+
+"manuscript" [label="Story", shape=none];
+
+// Books //
+
+"BI" [label="PART ONE:\nINITIATION", shape=none];
+"BII" [label="PART TWO:\nCONFRONTATION", shape=none];
+"BIII" [label="PART THREE:\nTURNING", shape=none];
+"BIV" [label="PART FOUR:\nRECKONING", shape=none];
+"BV" [label="PART FIVE:\nAFTERMATH", shape=none];
+
+// manuscript to the five Books //
+
+"manuscript" -> "BI" [color=grey60, arrowhead=none, minlen=3];
+"manuscript" -> "BII" [color=grey60, arrowhead=none, minlen=2];
+"manuscript" -> "BIII" [color=grey60, arrowhead=none, minlen=1];
+"manuscript" -> "BIV" [color=grey60, arrowhead=none, minlen=2];
+"manuscript" -> "BV" [color=grey60, arrowhead=none, minlen=3];
+
+
+}
