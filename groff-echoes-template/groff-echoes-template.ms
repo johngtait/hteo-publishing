@@ -1,4 +1,5 @@
-.\" A groff novel template
+.\" A groff novel template.
+.\" Process the loader file, which has page layout options and calls this file.
 .\" 
 .\" 
 .SH 1
@@ -8,7 +9,7 @@ One
 .LP
 This is the beginning.
 .PP
-Second sentence.
+Second sentence, indented.
 .PP
 .sp
 .\" Scene 002. ONE-I-b. AAB. Echoes Group 02.
@@ -135,12 +136,8 @@ Two
 .sp
 .\" Scene 032. TWO-II-b. BBB (trifecta: new chapter).
 .LP
-This is the first sentence of Chapter Two, scene 1. It is a test of
-the template.
 .PP
-`This is the second sentence of Chapter Two, scene 1,' he said.
 .PP
-She replied: this is the third sentence of Chapter One, scene 1.
 .\" Scene 033. TWO-II-c. BBX. Echoes Group 15.
 .PP
 .PP
@@ -393,7 +390,7 @@ Three
 Four
 .sp
 .\" Scene 094. FOUR-IV-d. B′B′B′ (trifecta: new chapter).
-.PP
+.LP
 .PP
 .PP
 .\" Scene 095. FOUR-IV-e. B′B′A′. Echoes Group 13.
@@ -524,3 +521,4 @@ Epilogue
 We are now in the Epilogue. I hope the test was successful.
 .PP
 .PP
+
