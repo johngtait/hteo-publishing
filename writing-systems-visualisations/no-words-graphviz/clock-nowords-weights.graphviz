@@ -1,0 +1,704 @@
+// This is code for Clock visualisations
+
+// ---------------------------
+// ----- by John Tait !! -----
+// ---------------------------
+
+
+digraph G {
+
+/// for sfpd...
+
+beautify=true;
+smoothing=true;
+
+
+/// neato separation: default +3
+
+esep=0.7
+sep=1;
+
+overlap=scale;
+splines=true;
+// clusters=dotted;
+// ordering=out;
+// ranksep = "4";
+rankdir=TB;
+
+// Manuscript //
+
+"manuscript" [label="", shape=circle, penwidth=5, style=filled, fillcolor=grey60];
+
+// Books //
+
+"BI" [label="", shape=circle, penwidth=5, style=filled, fillcolor=grey60];
+"BII" [label="", shape=circle, penwidth=5, style=filled, fillcolor=grey60];
+"BIII" [label="", shape=circle, penwidth=5, style=filled, fillcolor=grey60];
+"BIV" [label="", shape=circle, penwidth=5, style=filled, fillcolor=grey60];
+"BV" [label="", shape=circle, penwidth=5, style=filled, fillcolor=grey60];
+
+// manuscript to the five Books //
+
+"manuscript" -> "BI" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+"manuscript" -> "BII" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"manuscript" -> "BIII" [penwidth=5, color=grey60, arrowhead=none, minlen=1];
+"manuscript" -> "BIV" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"manuscript" -> "BV" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+
+
+
+/////////////////////////////////////////////////////
+
+// ---------- BOOK ONE -------  //
+
+/////////////////////////////////////////////////////
+
+// Book One Acts //
+
+
+"BIAI" [label="", shape=circle, penwidth=5, style=filled, fillcolor=grey60];
+"BIAII" [label="", shape=circle, penwidth=5, style=filled, fillcolor=grey60];
+"BIAIII" [label="", shape=circle, penwidth=5, style=filled, fillcolor=grey60];
+"BIAIV" [label="", shape=circle, penwidth=5, style=filled, fillcolor=grey60];
+"BIAV" [label="", shape=circle, penwidth=5, style=filled, fillcolor=grey60];
+
+
+
+// Book One to its Acts //
+
+"BI" -> "BIAI" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+"BI" -> "BIAII" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BI" -> "BIAIII" [penwidth=5, color=grey60, arrowhead=none, minlen=1];
+"BI" -> "BIAIV" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BI" -> "BIAV" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+// Book One Act I scenes //
+
+
+"BIAISI" [label="", shape=circle, penwidth=5];
+"BIAISII" [label="", shape=circle, penwidth=5];
+"BIAISIII" [label="", shape=circle, penwidth=5];
+"BIAISIV" [label="", shape=circle, penwidth=5];
+"BIAISV" [label="", shape=circle, penwidth=5];
+
+
+// Book One Act I to its scenes //
+
+"BIAI" -> "BIAISI" [penwidth=5, color=red, arrowhead=none, minlin=3];
+"BIAI" -> "BIAISII" [penwidth=5, color=grey60 arrowhead=none, minlen=2];
+"BIAI" -> "BIAISIII" [penwidth=5, color=grey60, arrowhead=none, minlen=1];
+"BIAI" -> "BIAISIV" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIAI" -> "BIAISV" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+
+
+////////////////////////////////////////////////////
+
+
+
+// Book One Act II scenes //
+
+"BIAIISI" [label="", shape=circle, penwidth=5];
+"BIAIISII" [label="", shape=circle, penwidth=5];
+"BIAIISIII" [label="", shape=circle, penwidth=5];
+"BIAIISIV" [label="", shape=circle, penwidth=5];
+"BIAIISV" [label="", shape=circle, penwidth=5];
+
+
+// Book One Act II to its scenes //
+
+"BIAII" -> "BIAIISI" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+"BIAII" -> "BIAIISII" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIAII" -> "BIAIISIII" [penwidth=5, color=grey60, arrowhead=none, minlen=1];
+"BIAII" -> "BIAIISIV" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIAII" -> "BIAIISV" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+
+
+
+////////////////////////////////////////////////////
+
+// Book One Act III scenes //
+
+"BIAIIISI" [label="", shape=circle, penwidth=5];
+"BIAIIISII" [label="", shape=circle, penwidth=5];
+"BIAIIISIII" [label="", shape=circle, penwidth=5];
+"BIAIIISIV" [label="", shape=circle, penwidth=5];
+"BIAIIISV" [label="", shape=circle, penwidth=5];
+
+
+// Book One Act III to its scenes //
+
+"BIAIII" -> "BIAIIISI" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+"BIAIII" -> "BIAIIISII" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIAIII" -> "BIAIIISIII" [penwidth=5, color=grey60, arrowhead=none, minlen=1];
+"BIAIII" -> "BIAIIISIV" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIAIII" -> "BIAIIISV" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+
+
+////////////////////////////////////////////////////
+
+// Book One Act IV scenes //
+
+"BIAIVSI" [label="", shape=circle, penwidth=5];
+"BIAIVSII" [label="", shape=circle, penwidth=5];
+"BIAIVSIII" [label="", shape=circle, penwidth=5];
+"BIAIVSIV" [label="", shape=circle, penwidth=5];
+"BIAIVSV" [label="", shape=circle, penwidth=5];
+
+
+// Book One Act IV to its scenes //
+
+"BIAIV" -> "BIAIVSI" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+"BIAIV" -> "BIAIVSII" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIAIV" -> "BIAIVSIII" [penwidth=5, color=grey60, arrowhead=none, minlen=1];
+"BIAIV" -> "BIAIVSIV" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIAIV" -> "BIAIVSV" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+
+
+////////////////////////////////////////////////////
+
+// Book One Act V scenes //
+
+"BIAVSI" [label="", shape=circle, penwidth=5];
+"BIAVSII" [label="", shape=circle, penwidth=5];
+"BIAVSIII" [label="", shape=circle, penwidth=5];
+"BIAVSIV" [label="", shape=circle, penwidth=5];
+"BIAVSV" [label="", shape=circle, penwidth=5];
+
+
+// Book One Act V to its scenes //
+
+"BIAV" -> "BIAVSI" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+"BIAV" -> "BIAVSII" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIAV" -> "BIAVSIII" [penwidth=5, color=grey60, arrowhead=none, minlen=1];
+"BIAV" -> "BIAVSIV" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIAV" -> "BIAVSV" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+
+// }
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+/////////////////////////////////////////////////////
+
+// ---------- BOOK TWO -------  //
+
+////////////////////////////////////////////////////
+
+
+// Book Two Acts //
+
+"BIIAI" [label="", shape=circle, penwidth=5, style=filled, fillcolor=grey60];
+"BIIAII" [label="", shape=circle, penwidth=5, style=filled, fillcolor=grey60];
+"BIIAIII" [label="", shape=circle, penwidth=5, style=filled, fillcolor=grey60];
+"BIIAIV" [label="", shape=circle, penwidth=5, style=filled, fillcolor=grey60];
+"BIIAV" [label="", shape=circle, penwidth=5, style=filled, fillcolor=grey60];
+
+// Book Two to its Acts //
+
+"BII" -> "BIIAI" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+"BII" -> "BIIAII" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BII" -> "BIIAIII" [penwidth=5, color=grey60, arrowhead=none, minlen=1];
+"BII" -> "BIIAIV" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BII" -> "BIIAV" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Book Two Act I scenes //
+
+"BIIAISI" [label="", shape=circle, penwidth=5];
+"BIIAISII" [label="", shape=circle, penwidth=5];
+"BIIAISIII" [label="", shape=circle, penwidth=5];
+"BIIAISIV" [label="", shape=circle, penwidth=5];
+"BIIAISV" [label="", shape=circle, penwidth=5];
+
+
+// Book Two Act I to its scenes //
+
+"BIIAI" -> "BIIAISI" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+"BIIAI" -> "BIIAISII" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIIAI" -> "BIIAISIII" [penwidth=5, color=grey60, arrowhead=none, minlen=1];
+"BIIAI" -> "BIIAISIV" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIIAI" -> "BIIAISV" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+
+
+////////////////////////////////////////////////////
+
+// Book Two Act II scenes //
+
+"BIIAIISI" [label="", shape=circle, penwidth=5];
+"BIIAIISII" [label="", shape=circle, penwidth=5];
+"BIIAIISIII" [label="", shape=circle, penwidth=5];
+"BIIAIISIV" [label="", shape=circle, penwidth=5];
+"BIIAIISV" [label="", shape=circle, penwidth=5];
+
+
+// Book Two Act II to its scenes //
+
+"BIIAII" -> "BIIAIISI" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+"BIIAII" -> "BIIAIISII" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIIAII" -> "BIIAIISIII" [penwidth=5, color=grey60, arrowhead=none, minlen=1];
+"BIIAII" -> "BIIAIISIV" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIIAII" -> "BIIAIISV" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+
+
+
+////////////////////////////////////////////////////
+
+// Book Two Act III scenes //
+
+"BIIAIIISI" [label="", shape=circle, penwidth=5];
+"BIIAIIISII" [label="", shape=circle, penwidth=5];
+"BIIAIIISIII" [label="", shape=circle, penwidth=5];
+"BIIAIIISIV" [label="", shape=circle, penwidth=5];
+"BIIAIIISV" [label="", shape=circle, penwidth=5];
+
+
+// Book Two Act III to its scenes //
+
+"BIIAIII" -> "BIIAIIISI" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+"BIIAIII" -> "BIIAIIISII" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIIAIII" -> "BIIAIIISIII" [penwidth=5, color=grey60, arrowhead=none, minlen=1];
+"BIIAIII" -> "BIIAIIISIV" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIIAIII" -> "BIIAIIISV" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+
+
+
+
+////////////////////////////////////////////////////
+
+// Book Two Act IV scenes //
+
+"BIIAIVSI" [label="", shape=circle, penwidth=5];
+"BIIAIVSII" [label="", shape=circle, penwidth=5];
+"BIIAIVSIII" [label="", shape=circle, penwidth=5];
+"BIIAIVSIV" [label="", shape=circle, penwidth=5];
+"BIIAIVSV" [label="", shape=circle, penwidth=5];
+
+
+// Book Two Act IV to its scenes //
+
+"BIIAIV" -> "BIIAIVSI" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+"BIIAIV" -> "BIIAIVSII" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIIAIV" -> "BIIAIVSIII" [penwidth=5, color=grey60, arrowhead=none, minlen=1];
+"BIIAIV" -> "BIIAIVSIV" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIIAIV" -> "BIIAIVSV" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+
+
+////////////////////////////////////////////////////
+
+// Book Two Act V scenes //
+
+"BIIAVSI" [label="", shape=circle, penwidth=5];
+"BIIAVSII" [label="", shape=circle, penwidth=5];
+"BIIAVSIII" [label="", shape=circle, penwidth=5];
+"BIIAVSIV" [label="", shape=circle, penwidth=5];
+"BIIAVSV" [label="", shape=circle, penwidth=5];
+
+
+// Book Two Act V to its scenes //
+
+"BIIAV" -> "BIIAVSI" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+"BIIAV" -> "BIIAVSII" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIIAV" -> "BIIAVSIII" [penwidth=5, color=grey60, arrowhead=none, minlen=1];
+"BIIAV" -> "BIIAVSIV" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIIAV" -> "BIIAVSV" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+/////////////////////////////////////////////////////
+
+// ---------- BOOK THREE -------  //
+
+////////////////////////////////////////////////////
+
+
+// Book Three Acts //
+
+"BIIIAI" [label="", shape=circle, penwidth=5, style=filled, fillcolor=grey60];
+"BIIIAII" [label="", shape=circle, penwidth=5, style=filled, fillcolor=grey60];
+"BIIIAIII" [label="", shape=circle, penwidth=5, style=filled, fillcolor=grey60];
+"BIIIAIV" [label="", shape=circle, penwidth=5, style=filled, fillcolor=grey60];
+"BIIIAV" [label="", shape=circle, penwidth=5, style=filled, fillcolor=grey60];
+
+// Book Three to its ACTS //
+
+"BIII" -> "BIIIAI" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+"BIII" -> "BIIIAII" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIII" -> "BIIIAIII" [penwidth=5, color=grey60, arrowhead=none, minlen=1];
+"BIII" -> "BIIIAIV" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIII" -> "BIIIAV" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Book Three Act I scenes //
+
+"BIIIAISI" [label="", shape=circle, penwidth=5];
+"BIIIAISII" [label="", shape=circle, penwidth=5];
+"BIIIAISIII" [label="", shape=circle, penwidth=5];
+"BIIIAISIV" [label="", shape=circle, penwidth=5];
+"BIIIAISV" [label="", shape=circle, penwidth=5];
+
+
+// Book Three Act I to its scenes //
+
+"BIIIAI" -> "BIIIAISI" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+"BIIIAI" -> "BIIIAISII" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIIIAI" -> "BIIIAISIII" [penwidth=5, color=grey60, arrowhead=none, minlen=1];
+"BIIIAI" -> "BIIIAISIV" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIIIAI" -> "BIIIAISV" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+
+
+////////////////////////////////////////////////////
+
+// Book Three Act II scenes //
+
+"BIIIAIISI" [label="", shape=circle, penwidth=5];
+"BIIIAIISII" [label="", shape=circle, penwidth=5];
+"BIIIAIISIII" [label="", shape=circle, penwidth=5];
+"BIIIAIISIV" [label="", shape=circle, penwidth=5];
+"BIIIAIISV" [label="", shape=circle, penwidth=5];
+
+
+// Book Three Act II to its scenes //
+
+"BIIIAII" -> "BIIIAIISI" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+"BIIIAII" -> "BIIIAIISII" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIIIAII" -> "BIIIAIISIII" [penwidth=5, color=grey60, arrowhead=none, minlen=1];
+"BIIIAII" -> "BIIIAIISIV" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIIIAII" -> "BIIIAIISV" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+
+
+
+////////////////////////////////////////////////////
+
+// Book Three Act III scenes //
+
+"BIIIAIIISI" [label="", shape=circle, penwidth=5];
+"BIIIAIIISII" [label="", shape=circle, penwidth=5];
+"BIIIAIIISIII" [label="", shape=circle, penwidth=5];
+"BIIIAIIISIV" [label="", shape=circle, penwidth=5];
+"BIIIAIIISV" [label="", shape=circle, penwidth=5];
+
+
+// Book Three Act III to its scenes //
+
+"BIIIAIII" -> "BIIIAIIISI" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+"BIIIAIII" -> "BIIIAIIISII" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIIIAIII" -> "BIIIAIIISIII" [penwidth=5, color=grey60, arrowhead=none, minlen=1];
+"BIIIAIII" -> "BIIIAIIISIV" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIIIAIII" -> "BIIIAIIISV" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+
+
+////////////////////////////////////////////////////
+
+// Book Three Act IV scenes //
+
+"BIIIAIVSI" [label="", shape=circle, penwidth=5];
+"BIIIAIVSII" [label="", shape=circle, penwidth=5];
+"BIIIAIVSIII" [label="", shape=circle, penwidth=5];
+"BIIIAIVSIV" [label="", shape=circle, penwidth=5];
+"BIIIAIVSV" [label="", shape=circle, penwidth=5];
+
+
+// Book Three Act IV to its scenes //
+
+"BIIIAIV" -> "BIIIAIVSI" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+"BIIIAIV" -> "BIIIAIVSII" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIIIAIV" -> "BIIIAIVSIII" [penwidth=5, color=grey60, arrowhead=none, minlen=1];
+"BIIIAIV" -> "BIIIAIVSIV" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIIIAIV" -> "BIIIAIVSV" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+
+
+////////////////////////////////////////////////////
+
+// Book Three Act V scenes //
+
+"BIIIAVSI" [label="", shape=circle, penwidth=5];
+"BIIIAVSII" [label="", shape=circle, penwidth=5];
+"BIIIAVSIII" [label="", shape=circle, penwidth=5];
+"BIIIAVSIV" [label="", shape=circle, penwidth=5];
+"BIIIAVSV" [label="", shape=circle, penwidth=5];
+
+
+// Book Three Act V to its scenes //
+
+"BIIIAV" -> "BIIIAVSI" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+"BIIIAV" -> "BIIIAVSII" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIIIAV" -> "BIIIAVSIII" [penwidth=5, color=grey60, arrowhead=none, minlen=1];
+"BIIIAV" -> "BIIIAVSIV" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIIIAV" -> "BIIIAVSV" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+/////////////////////////////////////////////////////
+
+// ---------- BOOK FOUR -------  //
+
+////////////////////////////////////////////////////
+
+
+// Book Four Acts //
+
+"BIVAI" [label="", shape=circle, penwidth=5, style=filled, fillcolor=grey60];
+"BIVAII" [label="", shape=circle, penwidth=5, style=filled, fillcolor=grey60];
+"BIVAIII" [label="", shape=circle, penwidth=5, style=filled, fillcolor=grey60];
+"BIVAIV" [label="", shape=circle, penwidth=5, style=filled, fillcolor=grey60];
+"BIVAV" [label="", shape=circle, penwidth=5, style=filled, fillcolor=grey60];
+
+// Book Four to its Acts //
+
+"BIV" -> "BIVAI" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+"BIV" -> "BIVAII" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIV" -> "BIVAIII" [penwidth=5, color=grey60, arrowhead=none, minlen=1];
+"BIV" -> "BIVAIV" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIV" -> "BIVAV" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+
+
+
+// Book Four Act I scenes //
+
+"BIVAISI" [label="", shape=circle, penwidth=5];
+"BIVAISII" [label="", shape=circle, penwidth=5];
+"BIVAISIII" [label="", shape=circle, penwidth=5];
+"BIVAISIV" [label="", shape=circle, penwidth=5];
+"BIVAISV" [label="", shape=circle, penwidth=5];
+
+
+// Book Four Act I to its scenes //
+
+"BIVAI" -> "BIVAISI" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+"BIVAI" -> "BIVAISII" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIVAI" -> "BIVAISIII" [penwidth=5, color=grey60, arrowhead=none, minlen=1];
+"BIVAI" -> "BIVAISIV" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIVAI" -> "BIVAISV" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+
+
+////////////////////////////////////////////////////
+
+// Book Four Act II scenes //
+
+"BIVAIISI" [label="", shape=circle, penwidth=5];
+"BIVAIISII" [label="", shape=circle, penwidth=5];
+"BIVAIISIII" [label="", shape=circle, penwidth=5];
+"BIVAIISIV" [label="", shape=circle, penwidth=5];
+"BIVAIISV" [label="", shape=circle, penwidth=5];
+
+
+// Book Four Act II to its scenes //
+
+"BIVAII" -> "BIVAIISI" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+"BIVAII" -> "BIVAIISII" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIVAII" -> "BIVAIISIII" [penwidth=5, color=grey60, arrowhead=none, minlen=1];
+"BIVAII" -> "BIVAIISIV" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIVAII" -> "BIVAIISV" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+
+
+
+////////////////////////////////////////////////////
+
+// Book Four Act III scenes //
+
+"BIVAIIISI" [label="", shape=circle, penwidth=5];
+"BIVAIIISII" [label="", shape=circle, penwidth=5];
+"BIVAIIISIII" [label="", shape=circle, penwidth=5];
+"BIVAIIISIV" [label="", shape=circle, penwidth=5];
+"BIVAIIISV" [label="", shape=circle, penwidth=5];
+
+
+// Book Four Act III to its scenes //
+
+"BIVAIII" -> "BIVAIIISI" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+"BIVAIII" -> "BIVAIIISII" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIVAIII" -> "BIVAIIISIII" [penwidth=5, color=grey60, arrowhead=none, minlen=1];
+"BIVAIII" -> "BIVAIIISIV" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIVAIII" -> "BIVAIIISV" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+
+
+
+////////////////////////////////////////////////////
+
+// Book Four Act IV scenes //
+
+"BIVAIVSI" [label="", shape=circle, penwidth=5];
+"BIVAIVSII" [label="", shape=circle, penwidth=5];
+"BIVAIVSIII" [label="", shape=circle, penwidth=5];
+"BIVAIVSIV" [label="", shape=circle, penwidth=5];
+"BIVAIVSV" [label="", shape=circle, penwidth=5];
+
+
+// Book Four Act IV to its scenes //
+
+"BIVAIV" -> "BIVAIVSI" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+"BIVAIV" -> "BIVAIVSII" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIVAIV" -> "BIVAIVSIII" [penwidth=5, color=grey60, arrowhead=none, minlen=1];
+"BIVAIV" -> "BIVAIVSIV" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIVAIV" -> "BIVAIVSV" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+
+
+////////////////////////////////////////////////////
+
+// Book Four Act V scenes //
+
+"BIVAVSI" [label="", shape=circle, penwidth=5];
+"BIVAVSII" [label="", shape=circle, penwidth=5];
+"BIVAVSIII" [label="", shape=circle, penwidth=5];
+"BIVAVSIV" [label="", shape=circle, penwidth=5];
+"BIVAVSV" [label="", shape=circle, penwidth=5];
+
+
+// Book Four Act V to its scenes //
+
+"BIVAV" -> "BIVAVSI" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+"BIVAV" -> "BIVAVSII" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIVAV" -> "BIVAVSIII" [penwidth=5, color=grey60, arrowhead=none, minlen=1];
+"BIVAV" -> "BIVAVSIV" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BIVAV" -> "BIVAVSV" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+/////////////////////////////////////////////////////
+
+// ---------- BOOK FIVE -------  //
+
+////////////////////////////////////////////////////
+
+
+// Book Five Acts //
+
+"BVAI" [label="", shape=circle, penwidth=5, style=filled, fillcolor=grey60];
+"BVAII" [label="", shape=circle, penwidth=5, style=filled, fillcolor=grey60];
+"BVAIII" [label="", shape=circle, penwidth=5, style=filled, fillcolor=grey60];
+"BVAIV" [label="", shape=circle, penwidth=5, style=filled, fillcolor=grey60];
+"BVAV" [label="", shape=circle, penwidth=5, style=filled, fillcolor=grey60];
+
+// Book Five to its Acts //
+
+"BV" -> "BVAI" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+"BV" -> "BVAII" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BV" -> "BVAIII" [penwidth=5, color=grey60, arrowhead=none, minlen=1];
+"BV" -> "BVAIV" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BV" -> "BVAV" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Book Five Act I scenes //
+
+"BVAISI" [label="", shape=circle, penwidth=5];
+"BVAISII" [label="", shape=circle, penwidth=5];
+"BVAISIII" [label="", shape=circle, penwidth=5];
+"BVAISIV" [label="", shape=circle, penwidth=5];
+"BVAISV" [label="", shape=circle, penwidth=5];
+
+
+// Book Five Act I to its scenes //
+
+"BVAI" -> "BVAISI" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+"BVAI" -> "BVAISII" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BVAI" -> "BVAISIII" [penwidth=5, color=grey60, arrowhead=none, minlen=1];
+"BVAI" -> "BVAISIV" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BVAI" -> "BVAISV" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+
+
+////////////////////////////////////////////////////
+
+// Book Five Act II scenes //
+
+"BVAIISI" [label="", shape=circle, penwidth=5];
+"BVAIISII" [label="", shape=circle, penwidth=5];
+"BVAIISIII" [label="", shape=circle, penwidth=5];
+"BVAIISIV" [label="", shape=circle, penwidth=5];
+"BVAIISV" [label="", shape=circle, penwidth=5];
+
+
+// Book Five Act II to its scenes //
+
+"BVAII" -> "BVAIISI" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+"BVAII" -> "BVAIISII" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BVAII" -> "BVAIISIII" [penwidth=5, color=grey60, arrowhead=none, minlen=1];
+"BVAII" -> "BVAIISIV" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BVAII" -> "BVAIISV" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+
+
+
+////////////////////////////////////////////////////
+
+// Book Five Act III scenes //
+
+"BVAIIISI" [label="", shape=circle, penwidth=5];
+"BVAIIISII" [label="", shape=circle, penwidth=5];
+"BVAIIISIII" [label="", shape=circle, penwidth=5];
+"BVAIIISIV" [label="", shape=circle, penwidth=5];
+"BVAIIISV" [label="", shape=circle, penwidth=5];
+
+
+// Book Five Act III to its scenes //
+
+"BVAIII" -> "BVAIIISI" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+"BVAIII" -> "BVAIIISII" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BVAIII" -> "BVAIIISIII" [penwidth=5, color=grey60, arrowhead=none, minlen=1];
+"BVAIII" -> "BVAIIISIV" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BVAIII" -> "BVAIIISV" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+
+
+////////////////////////////////////////////////////
+
+// Book Five Act IV scenes //
+
+"BVAIVSI" [label="", shape=circle, penwidth=5];
+"BVAIVSII" [label="", shape=circle, penwidth=5];
+"BVAIVSIII" [label="", shape=circle, penwidth=5];
+"BVAIVSIV" [label="", shape=circle, penwidth=5];
+"BVAIVSV" [label="", shape=circle, penwidth=5];
+
+
+// Book Five Act IV to its scenes //
+
+"BVAIV" -> "BVAIVSI" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+"BVAIV" -> "BVAIVSII" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BVAIV" -> "BVAIVSIII" [penwidth=5, color=grey60, arrowhead=none, minlen=1];
+"BVAIV" -> "BVAIVSIV" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BVAIV" -> "BVAIVSV" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+
+
+////////////////////////////////////////////////////
+
+// Book Five Act V scenes //
+
+"BVAVSI" [label="", shape=circle, penwidth=5];
+"BVAVSII" [label="", shape=circle, penwidth=5];
+"BVAVSIII" [label="", shape=circle, penwidth=5];
+"BVAVSIV" [label="", shape=circle, penwidth=5];
+"BVAVSV" [label="", shape=circle, penwidth=5];
+
+
+// Book Five Act V to its scenes //
+
+"BVAV" -> "BVAVSI" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+"BVAV" -> "BVAVSII" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BVAV" -> "BVAVSIII" [penwidth=5, color=grey60, arrowhead=none, minlen=1];
+"BVAV" -> "BVAVSIV" [penwidth=5, color=grey60, arrowhead=none, minlen=2];
+"BVAV" -> "BVAVSV" [penwidth=5, color=grey60, arrowhead=none, minlen=3];
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+}
