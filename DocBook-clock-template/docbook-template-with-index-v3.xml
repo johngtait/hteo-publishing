@@ -1,0 +1,1500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://docbook.org/xml/5.1/rng/docbook.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://docbook.org/xml/5.1/rng/docbook.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<book xml:lang="en-GB" xmlns="http://docbook.org/ns/docbook"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:m="http://www.w3.org/1998/Math/MathML"
+    xmlns:xi="http://www.w3.org/2001/XInclude" version="5.2">
+    <info>
+        <title>Title</title>
+        <subtitle>Subtitle</subtitle>
+        <author>
+            <personname>John Tait</personname>
+        </author>
+        <abstract>
+            <title>Copyright</title>
+            <para>First published in 202X by Hack the Edge Off.</para>
+            <para>Copyright © 202X John Tait.</para>
+            <para>All rights reserved.</para>
+            <para>ISBN NNN (ebook)</para>
+            <para>Designed by Hack the Edge Off.</para>
+            <para>Produced using <citetitle>Dandelion</citetitle>, <citetitle>Clock</citetitle> and
+                    <citetitle>Echoes</citetitle> by John Tait.</para>
+            <para>
+                <informalfigure>
+
+                    <mediaobject>
+                        <imageobject>
+                            <imagedata fileref="img/dandelion.svg" align="center" width="7cm"/>
+                        </imageobject>
+                    </mediaobject>
+                    <mediaobject>
+                        <imageobject>
+                            <imagedata fileref="img/clock.svg" align="center" width="7cm"/>
+                        </imageobject>
+                    </mediaobject>
+                    <mediaobject>
+                        <imageobject>
+                            <imagedata fileref="img/echoes.svg" align="center" width="7cm"/>
+                        </imageobject>
+                    </mediaobject>
+                </informalfigure>
+            </para>
+
+        </abstract>
+
+    </info>
+    <preface>
+        <title>The Warrens series</title>
+        <para>Book N of the Warrens series.</para>
+        <para>Also available:</para>
+        <para>Book 1: Warrens Witches Psionics. ISBN... (ABC). ISBN... (DEF).</para>
+    </preface>
+    <preface>
+        <title>Foreword</title>
+        <para>I wrote this novel to test a writing system called <citetitle>Echoes</citetitle>, a
+            supplement to writing systems <citetitle>Clock</citetitle> and
+                <citetitle>Dandelion</citetitle>.</para>
+
+    </preface>
+    <chapter>
+        <title>Chapter One</title>
+        <titleabbrev>ONE</titleabbrev>
+        <simplesect xml:id="sc1">
+            <title xml:id="sct1">1</title>
+            <remark>Scene 1. ONE-I-a. Echoes Group 1: Fox.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc2">
+            <title xml:id="sct2">2</title>
+            <remark>Scene 2. ONE-I-b. Echoes Group 2: Flames.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc3">
+            <title xml:id="sct3">3</title>
+            <remark>Scene 3. ONE-I-c. Echoes Group 3. Drink.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc4">
+            <title xml:id="sct4">4</title>
+            <remark>Scene 4. ONE-I-d. Echoes Group 2: Flames.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc5">
+            <title xml:id="sct5">5</title>
+            <remark>Scene 5. ONE-I-e. Echoes Group 1: Fox.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc6">
+            <title xml:id="sct6">6</title>
+            <remark>Scene 6. ONE-II-a. Echoes Group 4: Contacting.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc7">
+            <title xml:id="sct7">7</title>
+            <remark>Scene 7. ONE-II-b. Echoes Group 5: Magpie.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc8">
+            <title xml:id="sct8">8</title>
+            <remark>Scene 8. ONE-II-c. Echoes Group 6: Hole.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc9">
+            <title xml:id="sct9">9</title>
+            <remark>Scene 9. ONE-II-d. Echoes Group 5: Magpie.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc10">
+            <title xml:id="sct10">10</title>
+            <remark>Scene 10. ONE-II-e. Echoes Group 4: Contacting.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc11">
+            <title xml:id="sct11">11</title>
+            <remark>Scene 11. ONE-III-a. Echoes Group 7: Bottle.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc12">
+            <title xml:id="sct12">12</title>
+            <remark>Scene 12. ONE-III-b. Echoes Group 8: Frogs.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc13">
+            <title xml:id="sct13">13</title>
+            <remark>Scene 13. ONE-III-c. Echoes Group 9: Nest.</remark>
+        </simplesect>
+        <simplesect xml:id="sc14">
+            <title xml:id="sct14">14</title>
+            <remark>Scene 14. ONE-III-d. Echoes Group 8: Frogs.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc15">
+            <title xml:id="sct15">15</title>
+            <remark>Scene 15. ONE-III-e. Echoes Group 7: Bottle.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc16">
+            <title xml:id="sct16">16</title>
+            <remark>Scene 16. ONE-IV-a. Echoes Group 4: Contacting.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc17">
+            <title xml:id="sct17">17</title>
+            <remark>Scene 17. ONE-IV-b. Echoes Group 5: Magpie.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc18">
+            <title xml:id="sct18">18</title>
+            <remark>Scene 18. ONE-IV-c. Echoes Group 6: Hole.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc19">
+            <title xml:id="sct19">19</title>
+            <remark>Scene 19. ONE-IV-d. Echoes Group 5: Magpie.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc20">
+            <title xml:id="sct20">20</title>
+            <remark>Scene 20. ONE-IV-e. Echoes Group 4: Contacting.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc21">
+            <title xml:id="sct21">21</title>
+            <remark>Scene 21. ONE-V-a. Echoes Group 1: Fox.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc22">
+            <title xml:id="sct22">22</title>
+            <remark>Scene 22. ONE-V-b. Echoes Group 2: Flames.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc23">
+            <title xml:id="sct23">23</title>
+            <remark>Scene 23. ONE-V-c. Echoes Group 3. Drink.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc24">
+            <title xml:id="sct24">24</title>
+            <remark>Scene 24. ONE-V-d. Echoes Group 2: Flames.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc25">
+            <title xml:id="sct25">25</title>
+            <remark>Scene 25. ONE-V-e. Echoes Group 1: Fox.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc26">
+            <title xml:id="sct26">26</title>
+            <remark>Scene 26. TWO-I-a. Echoes Group 10: Opening. </remark>
+            <para/>
+        </simplesect>
+
+        <simplesect xml:id="sc27">
+            <title xml:id="sct27">27</title>
+            <remark>Scene 27. TWO-I-b. Echoes Group 11: Stars.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc28">
+            <title xml:id="sct28">28</title>
+            <remark>Scene 28. TWO-I-c. Echoes Group 12: Alphabet.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc29">
+            <title xml:id="sct29">29</title>
+            <remark>Scene 29. TWO-I-d. Echoes Group 11: Stars.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc30">
+            <title xml:id="sct30">30</title>
+            <remark>Scene 30. TWO-I-e. Echoes Group 10: Opening.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc31">
+            <title xml:id="sct31">31</title>
+            <remark>Scene 31. TWO-II-a. Echoes Group 13: Fruit.</remark>
+            <para/>
+        </simplesect>
+    </chapter>
+    <chapter>
+        <title>Chapter Two</title>
+        <titleabbrev>TWO</titleabbrev>
+        <simplesect xml:id="sc32">
+            <title xml:id="sct32">32</title>
+            <remark>Scene 32. TWO-II-b. Echoes Group 14: Song.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc33">
+            <title xml:id="sct33">33</title>
+            <remark>Scene 33. TWO-II-c. Echoes Group 15: Hook.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc34">
+            <title xml:id="sct34">34</title>
+            <remark>Scene 34. TWO-II-d. Echoes Group 14: Song.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc35">
+            <title xml:id="sct35">35</title>
+            <remark>Scene 35. TWO-II-e. Echoes Group 13: Fruit.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc36">
+            <title xml:id="sct36">36</title>
+            <remark>Scene 36. TWO-III-a. Echoes Group 16: Rodent.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc37">
+            <title xml:id="sct37">37</title>
+            <remark>Scene 37. TWO-III-b. Echoes Group 17: Hands.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc38">
+            <title xml:id="sct38">38</title>
+            <remark>Scene 38. TWO-III-c. Echoes Group 18: Crash.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc39">
+            <title xml:id="sct39">39</title>
+            <remark>Scene 39. TWO-III-d. Echoes Group 17: Hands.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc40">
+            <title xml:id="sct40">40</title>
+            <remark>Scene 40. TWO-III-e. Echoes Group 16: Rodent.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc41">
+            <title xml:id="sct41">41</title>
+            <remark>Scene 41. TWO-IV-a. Echoes Group 13: Fruit.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc42">
+            <title xml:id="sct42">42</title>
+            <remark>Scene 42. TWO-IV-b. Echoes Group 14: Song.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc43">
+            <title xml:id="sct43">43</title>
+            <remark>Scene 43. TWO-IV-c. Echoes Group 15: Hook.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc44">
+            <title xml:id="sct44">44</title>
+            <remark>Scene 44. TWO-IV-d. Echoes Group 14: Song.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc45">
+            <title xml:id="sct45">45</title>
+            <remark>Scene 45. TWO-IV-e. Echoes Group 13: Fruit.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc46">
+            <title xml:id="sct46">46</title>
+            <remark>Scene 46. TWO-V-a. Echoes Group 10: Opening.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc47">
+            <title xml:id="sct47">47</title>
+            <remark>Scene 47. TWO-V-b. Echoes Group 11: Stars.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc48">
+            <title xml:id="sct48">48</title>
+            <remark>Scene 48. TWO-V-c. Echoes Group 12: Alphabet.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc49">
+            <title xml:id="sct49">49</title>
+            <remark>Scene 49. TWO-V-d. Echoes Group 11: Stars.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc50">
+            <title xml:id="sct50">50</title>
+            <remark>Scene 50. TWO-V-e. Echoes Group 10: Opening.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc51">
+            <title xml:id="sct51">51</title>
+            <remark>Scene 51. THREE-I-a. Echoes Group 19: Cracks.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc52">
+            <title xml:id="sct52">52</title>
+            <remark>Scene 52. THREE-I-b. Echoes Group 20: Drain.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc53">
+            <title xml:id="sct53">53</title>
+            <remark>Scene 53. THREE-I-c. Echoes Group 21: Restraint.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc54">
+            <title xml:id="sct54">54</title>
+            <remark>Scene 54. THREE-I-d. Echoes Group 20: Drain.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc55">
+            <title xml:id="sct55">55</title>
+            <remark>Scene 55. THREE-I-e. Echoes Group 19: Cracks.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc56">
+            <title xml:id="sct56">56</title>
+            <remark>Scene 56. THREE-II-a. Echoes Group 22: Command.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc57">
+            <title xml:id="sct57">57</title>
+            <remark>Scene 57. THREE-II-b. Echoes Group 23: Fall.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc58">
+            <title xml:id="sct58">58</title>
+            <remark>Scene 58. THREE-II-c. Echoes Group 24: Processing.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc59">
+            <title xml:id="sct59">59</title>
+            <remark>Scene 59. THREE-II-d. Echoes Group 23: Fall.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc60">
+            <title xml:id="sct60">60</title>
+            <remark>Scene 60. THREE-II-e. Echoes Group 22: Command.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc61">
+            <title xml:id="sct61">61</title>
+            <remark>Scene 61. THREE-III-a. Echoes Group 25: Laugh.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc62">
+            <title xml:id="sct62">62</title>
+            <remark>Scene 62. THREE-III-b. Echoes Group 26: Roots.</remark>
+            <para/>
+        </simplesect>
+    </chapter>
+    <chapter>
+        <title>Chapter Three</title>
+        <titleabbrev>THREE</titleabbrev>
+        <simplesect xml:id="sc63">
+            <title xml:id="sct63">63</title>
+            <remark>Scene 63. THREE-III-c. Echoes Group 27: Sprawl.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc64">
+            <title xml:id="sct64">64</title>
+            <remark>Scene 64. THREE-III-d. Echoes Group 26: Roots.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc65">
+            <title xml:id="sct65">65</title>
+            <remark>Scene 65. THREE-III-e. Echoes Group 25: Laugh.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc66">
+            <title xml:id="sct66">66</title>
+            <remark>Scene 66. THREE-IV-a. Echoes Group 22: Command.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc67">
+            <title xml:id="sct67">67</title>
+            <remark>Scene 67. THREE-IV-b. Echoes Group 23: Fall.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc68">
+            <title xml:id="sct68">68</title>
+            <remark>Scene 68. THREE-IV-c. Echoes Group 24: Processing.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc69">
+            <title xml:id="sct69">69</title>
+            <remark>Scene 69. THREE-IV-d. Echoes Group 23: Fall.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc70">
+            <title xml:id="sct70">70</title>
+            <remark>Scene 70. THREE-IV-e. Echoes Group 22: Command.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc71">
+            <title xml:id="sct71">71</title>
+            <remark>Scene 71. THREE-V-a. Echoes Group 19: Cracks.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc72">
+            <title xml:id="sct72">72</title>
+            <remark>Scene 72. THREE-V-b. Echoes Group 20: Drain.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc73">
+            <title xml:id="sct73">73</title>
+            <remark>Scene 73. THREE-V-c. Echoes Group 21: Restraint.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc74">
+            <title xml:id="sct74">74</title>
+            <remark>Scene 74. THREE-V-d. Echoes Group 20: Drain.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc75">
+            <title xml:id="sct75">75</title>
+            <remark>Scene 75. THREE-V-e. Echoes Group 19: Cracks.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc76">
+            <title xml:id="sct76">76</title>
+            <remark>Scene 76. FOUR-I-a. Echoes Group 10: Opening.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc77">
+            <title xml:id="sct77">77</title>
+            <remark>Scene 77. FOUR-I-b. Echoes Group 11: Stars.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc78">
+            <title xml:id="sct78">78</title>
+            <remark>Scene 78. FOUR-I-c. Echoes Group 12: Alphabet.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc79">
+            <title xml:id="sct79">79</title>
+            <remark>Scene 79. FOUR-I-d. Echoes Group 11: Stars.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc80">
+            <title xml:id="sct80">80</title>
+            <remark>Scene 80. FOUR-I-e. Echoes Group 10: Opening.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc81">
+            <title xml:id="sct81">81</title>
+            <remark>Scene 81. FOUR-II-a. Echoes Group 13: Fruit.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc82">
+            <title xml:id="sct82">82</title>
+            <remark>Scene 82. FOUR-II-b. Echoes Group 14: Song.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc83">
+            <title xml:id="sct83">83</title>
+            <remark>Scene 83. FOUR-II-c. Echoes Group 15: Hook.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc84">
+            <title xml:id="sct84">84</title>
+            <remark>Scene 84. FOUR-II-d. Echoes Group 14: Song.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc85">
+            <title xml:id="sct85">85</title>
+            <remark>Scene 85. FOUR-II-e. Echoes Group 13: Fruit.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc86">
+            <title xml:id="sct86">86</title>
+            <remark>Scene 86. FOUR-III-a. Echoes Group 16: Rodent.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc87">
+            <title xml:id="sct87">87</title>
+            <remark>Scene 87. FOUR-III-b. Echoes Group 17: Hands.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc88">
+            <title xml:id="sct88">88</title>
+            <remark>Scene 88. FOUR-III-c. Echoes Group 18: Crash.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc89">
+            <title xml:id="sct89">89</title>
+            <remark>Scene 89. FOUR-III-d. Echoes Group 17: Hands.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc90">
+            <title xml:id="sct90">90</title>
+            <remark>Scene 90. FOUR-III-e. Echoes Group 16: Rodent.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc91">
+            <title xml:id="sct91">91</title>
+            <remark>Scene 91. FOUR-IV-a. Echoes Group 13: Fruit.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc92">
+            <title xml:id="sct92">92</title>
+            <remark>Scene 92. FOUR-IV-b. Echoes Group 14: Song.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc93">
+            <title xml:id="sct93">93</title>
+            <remark>Scene 93. FOUR-IV-c. Echoes Group 15: Hook.</remark>
+            <para/>
+        </simplesect>
+    </chapter>
+    <chapter>
+        <title>Chapter Four</title>
+        <titleabbrev>FOUR</titleabbrev>
+        <simplesect xml:id="sc94">
+            <title xml:id="sct94">94</title>
+            <remark>Scene 94. FOUR-IV-d. Echoes Group 14: Song.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc95">
+            <title xml:id="sct95">95</title>
+            <remark>Scene 95. FOUR-IV-e. Echoes Group 13: Fruit.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc96">
+            <title xml:id="sct96">96</title>
+            <remark>Scene 96. FOUR-V-a. Echoes Group 10: Opening.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc97">
+            <title xml:id="sct97">97</title>
+            <remark>Scene 97. FOUR-V-b. Echoes Group 11: Stars.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc98">
+            <title xml:id="sct98">98</title>
+            <remark>Scene 98. FOUR-V-c. Echoes Group 12: Alphabet.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc99">
+            <title xml:id="sct99">99</title>
+            <remark>Scene 99. FOUR-V-d. Echoes Group 11: Stars.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc100">
+            <title xml:id="sct100">100</title>
+            <remark>Scene 100. FOUR-V-e. Echoes Group 10: Opening.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc101">
+            <title xml:id="sct101">101</title>
+            <remark>Scene 101. FIVE-I-a. Echoes Group 1: Fox.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc102">
+            <title xml:id="sct102">102</title>
+            <remark>Scene 102. FIVE-I-b. Echoes Group 2: Flames.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc103">
+            <title xml:id="sct103">103</title>
+            <remark>Scene 103. FIVE-I-c. Echoes Group 3. Drink.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc104">
+            <title xml:id="sct104">104</title>
+            <remark>Scene 104. FIVE-I-d. Echoes Group 2: Flames.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc105">
+            <title xml:id="sct105">105</title>
+            <remark>Scene 105. FIVE-I-e. Echoes Group 1: Fox.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc106">
+            <title xml:id="sct106">106</title>
+            <remark>Scene 106. FIVE-II-a. Echoes Group 4: Contacting.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc107">
+            <title xml:id="sct107">107</title>
+            <remark>Scene 107.FIVE-II-b. Echoes Group 5: Magpie.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc108">
+            <title xml:id="sct108">108</title>
+            <remark>Scene 108. FIVE-II-c. Echoes Group 6: Hole.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc109">
+            <title xml:id="sct109">109</title>
+            <remark>Scene 109. FIVE-II-d. Echoes Group 5: Magpie.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc110">
+            <title xml:id="sct110">110</title>
+            <remark>Scene 110. FIVE-II-e. Echoes Group 4: Contacting.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc111">
+            <title xml:id="sct111">111</title>
+            <remark>Scene 111. FIVE-III-a. Echoes Group 7: Bottle.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc112">
+            <title xml:id="sct112">112</title>
+            <remark>Scene 112. FIVE-III-b. Echoes Group 8: Frogs.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc113">
+            <title xml:id="sct113">113</title>
+            <remark>Scene 113. FIVE-III-c. Echoes Group 9: Nest.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc114">
+            <title xml:id="sct114">114</title>
+            <remark>Scene 114. FIVE-III-d. Echoes Group 8: Frogs.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc115">
+            <title xml:id="sct115">115</title>
+            <remark>Scene 115. FIVE-III-e. Echoes Group 7: Bottle.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc116">
+            <title xml:id="sct116">116</title>
+            <remark>Scene 116. FIVE-IV-a. Echoes Group 4: Contacting.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc117">
+            <title xml:id="sct117">117</title>
+            <remark>Scene 117. FIVE-IV-b. Echoes Group 5: Magpie.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc118">
+            <title xml:id="sct118">118</title>
+            <remark>Scene 118. FIVE-IV-c. Echoes Group 6: Hole.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc119">
+            <title xml:id="sct119">119</title>
+            <remark>Scene 119. FIVE-IV-d. Echoes Group 5: Magpie.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc120">
+            <title xml:id="sct120">120</title>
+            <remark>Scene 120. FIVE-IV-e. Echoes Group 4: Contacting.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc121">
+            <title xml:id="sct121">121</title>
+            <remark>Scene 121. FIVE-V-a. Echoes Group 1: Fox.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc122">
+            <title xml:id="sct122">122</title>
+            <remark>Scene 122. FIVE-V-b. Echoes Group 2: Flames.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc123">
+            <title xml:id="sct123">123</title>
+            <remark>Scene 123. FIVE-V-c. Echoes Group 3. Drink.</remark>
+            <para/>
+        </simplesect>
+        <simplesect xml:id="sc124">
+            <title xml:id="sct124">124</title>
+            <remark>Scene 124. FIVE-V-d. Echoes Group 2: Flames.</remark>
+            <para/>
+        </simplesect>
+    </chapter>
+    <chapter xml:id="sc125">
+        <title xml:id="sct125">Epilogue</title>
+        <titleabbrev>EPILOGUE</titleabbrev>
+        <remark>Scene 125. FIVE-V-e. Echoes Group 1: Fox.</remark>
+        <para/>
+    </chapter>
+    <!-- 00000000000000000000000000000000000000-->
+    <!-- 000000oooooo ECHOES INDEX oooooo000000-->
+    <!-- 00000000000000000000000000000000000000-->
+    <index type="echoes">
+        <title>Echoes index</title>
+        <para>Text.</para>
+        <indexterm type="echoes" zone="sc1">
+            <primary>Echoes Group 01 (fox)</primary>
+            <secondary>Scene 001. ONE-I-a. AAA (trifecta: new chapter)</secondary></indexterm>
+        <indexterm type="echoes" zone="sc2">
+            <primary>Echoes Group 02 (flames)</primary>
+            <secondary>Scene 002. ONE-I-b. AAB</secondary></indexterm>
+        <indexterm type="echoes" zone="sc3">
+            <primary>Echoes Group 03 (drink)</primary>
+            <secondary>Scene 003. ONE-I-c. AAX</secondary></indexterm>
+        <indexterm type="echoes" zone="sc4">
+            <primary>Echoes Group 02 (flames)</primary>
+            <secondary>Scene 004. ONE-I-d. AAB′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc5">
+            <primary>Echoes Group 01 (fox)</primary>
+            <secondary>Scene 005. ONE-I-e. AAA′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc6">
+            <primary>Echoes Group 04 (contacting)</primary>
+            <secondary>Scene 006. ONE-II-a. ABA</secondary></indexterm>
+        <indexterm type="echoes" zone="sc7">
+            <primary>Echoes Group 05 (magpie)</primary>
+            <secondary>Scene 007. ONE-II-b. ABB</secondary></indexterm>
+        <indexterm type="echoes" zone="sc8">
+            <primary>Echoes Group 06 (hole)</primary>
+            <secondary>Scene 008. ONE-II-c. ABX</secondary></indexterm>
+        <indexterm type="echoes" zone="sc9">
+            <primary>Echoes Group 05 (magpie)</primary>
+            <secondary>Scene 009. ONE-II-d. ABB′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc10">
+            <primary>Echoes Group 04 (contacting)</primary>
+            <secondary>Scene 010. ONE-II-e. ABA′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc11">
+            <primary>Echoes Group 07 (bottle)</primary>
+            <secondary>Scene 011. ONE-III-a. AXA</secondary></indexterm>
+        <indexterm type="echoes" zone="sc12">
+            <primary>Echoes Group 08 (frogs)</primary>
+            <secondary>Scene 012. ONE-III-b. AXB</secondary></indexterm>
+        <indexterm type="echoes" zone="sc13">
+            <primary>Echoes Group 09 (nest)</primary>
+            <secondary>Scene 013. ONE-III-c. AXX</secondary></indexterm>
+        <indexterm type="echoes" zone="sc14">
+            <primary>Echoes Group 08 (frogs)</primary>
+            <secondary>Scene 014. ONE-III-d. AXB′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc15">
+            <primary>Echoes Group 07 (bottle)</primary>
+            <secondary>Scene 015. ONE-IV-a. AXA′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc16">
+            <primary>Echoes Group 04 (contacting)</primary>
+            <secondary>Scene 016. ONE-IV-a. AB′A</secondary></indexterm>
+        <indexterm type="echoes" zone="sc17">
+            <primary>Echoes Group 05 (magpie)</primary>
+            <secondary>Scene 017. ONE-IV-b. AB′B</secondary></indexterm>
+        <indexterm type="echoes" zone="sc18">
+            <primary>Echoes Group 06 (hole)</primary>
+            <secondary>Scene 018. ONE-IV-c. AB′X</secondary></indexterm>
+        <indexterm type="echoes" zone="sc19">
+            <primary>Echoes Group 05 (magpie)</primary>
+            <secondary>Scene 019. ONE-IV-d. AB′B′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc20">
+            <primary>Echoes Group 04 (contacting)</primary>
+            <secondary>Scene 020. ONE-IV-e. AB′A′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc21">
+            <primary>Echoes Group 01 (fox)</primary>
+            <secondary>Scene 021. ONE-V-a. AA′A</secondary></indexterm>
+        <indexterm type="echoes" zone="sc22">
+            <primary>Echoes Group 02 (flames)</primary>
+            <secondary>Scene 022. ONE-V-b. AA′B</secondary></indexterm>
+        <indexterm type="echoes" zone="sc23">
+            <primary>Echoes Group 03 (drink)</primary>
+            <secondary>Scene 023. ONE-V-c. AA′X</secondary></indexterm>
+        <indexterm type="echoes" zone="sc24">
+            <primary>Echoes Group 02 (flames)</primary>
+            <secondary>Scene 024. ONE-V-d. AA′B′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc25">
+            <primary>Echoes Group 01 (fox)</primary>
+            <secondary>Scene 025. ONE-V-e. AA′A′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc26">
+            <primary>Echoes Group 10 (opening)</primary>
+            <secondary>Scene 026. TWO-I-a. BAA</secondary></indexterm>
+        <indexterm type="echoes" zone="sc27">
+            <primary>Echoes Group 11 (stars)</primary>
+            <secondary>Scene 027. TWO-I-b. BAB</secondary></indexterm>
+        <indexterm type="echoes" zone="sc28">
+            <primary>Echoes Group 12 (alphabet)</primary>
+            <secondary>Scene 028. TWO-I-c. BAX</secondary></indexterm>
+        <indexterm type="echoes" zone="sc29">
+            <primary>Echoes Group 11 (stars)</primary>
+            <secondary>Scene 029. TWO-I-d. BAB′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc30">
+            <primary>Echoes Group 10 (opening)</primary>
+            <secondary>Scene 030. TWO-I-e. BAA′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc31">
+            <primary>Echoes Group 13 (fruit)</primary>
+            <secondary>Scene 031. TWO-II-a. BBA</secondary></indexterm>
+        <indexterm type="echoes" zone="sc32">
+            <primary>Echoes Group 14 (song)</primary>
+            <secondary>Scene 032. TWO-II-b. BBB (trifecta: new chapter)</secondary></indexterm>
+        <indexterm type="echoes" zone="sc33">
+            <primary>Echoes Group 15 (hook)</primary>
+            <secondary>Scene 033. TWO-II-c. BBX</secondary></indexterm>
+        <indexterm type="echoes" zone="sc34">
+            <primary>Echoes Group 14 (song)</primary>
+            <secondary>Scene 034. TWO-II-d. BBB′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc35">
+            <primary>Echoes Group 13 (fruit)</primary>
+            <secondary>Scene 035. TWO-II-e. BBA′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc36">
+            <primary>Echoes Group 16 (rodent)</primary>
+            <secondary>Scene 036. TWO-III-a. BXA</secondary></indexterm>
+        <indexterm type="echoes" zone="sc37">
+            <primary>Echoes Group 17 (hands)</primary>
+            <secondary>Scene 037. TWO-III-b. BXB</secondary></indexterm>
+        <indexterm type="echoes" zone="sc38">
+            <primary>Echoes Group 18 (crash)</primary>
+            <secondary>Scene 038. TWO-III-c. BXX</secondary></indexterm>
+        <indexterm type="echoes" zone="sc39">
+            <primary>Echoes Group 17 (hands)</primary>
+            <secondary>Scene 039. TWO-III-d. BXB′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc40">
+            <primary>Echoes Group 16 (rodent)</primary>
+            <secondary>Scene 040. TWO-III-e. BXA′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc41">
+            <primary>Echoes Group 13 (fruit)</primary>
+            <secondary>Scene 041. TWO-IV-a. BB′A</secondary></indexterm>
+        <indexterm type="echoes" zone="sc42">
+            <primary>Echoes Group 14 (song)</primary>
+            <secondary>Scene 042. TWO-IV-b. BB′B</secondary></indexterm>
+        <indexterm type="echoes" zone="sc43">
+            <primary>Echoes Group 15 (hook)</primary>
+            <secondary>Scene 043. TWO-IV-c. BB′X</secondary></indexterm>
+        <indexterm type="echoes" zone="sc44">
+            <primary>Echoes Group 14 (song)</primary>
+            <secondary>Scene 044. TWO-IV-d. BB′B′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc45">
+            <primary>Echoes Group 13 (fruit)</primary>
+            <secondary>Scene 045. TWO-IV-e. BB′A′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc46">
+            <primary>Echoes Group 10 (opening)</primary>
+            <secondary>Scene 046. TWO-V-a. BA′A</secondary></indexterm>
+        <indexterm type="echoes" zone="sc47">
+            <primary>Echoes Group 11 (stars)</primary>
+            <secondary>Scene 047. TWO-V-b. BA′B</secondary></indexterm>
+        <indexterm type="echoes" zone="sc48">
+            <primary>Echoes Group 12 (alphabet)</primary>
+            <secondary>Scene 048. TWO-V-c. BA′X</secondary></indexterm>
+        <indexterm type="echoes" zone="sc49">
+            <primary>Echoes Group 11 (stars)</primary>
+            <secondary>Scene 049. TWO-V-d. BA′B′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc50">
+            <primary>Echoes Group 10 (opening)</primary>
+            <secondary>Scene 050. TWO-V-e. BA′A′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc51">
+            <primary>Echoes Group 19 (cracks)</primary>
+            <secondary>Scene 051. THREE-I-a. XAA</secondary></indexterm>
+        <indexterm type="echoes" zone="sc52">
+            <primary>Echoes Group 20 (drain)</primary>
+            <secondary>Scene 052. THREE-I-b. XAB</secondary></indexterm>
+        <indexterm type="echoes" zone="sc53">
+            <primary>Echoes Group 21 (restraint)</primary>
+            <secondary>Scene 053. THREE-I-c. XAX</secondary></indexterm>
+        <indexterm type="echoes" zone="sc54">
+            <primary>Echoes Group 20 (drain)</primary>
+            <secondary>Scene 054. THREE-I-d. XAB′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc55">
+            <primary>Echoes Group 19 (cracks)</primary>
+            <secondary>Scene 055. THREE-I-e. XAA′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc56">
+            <primary>Echoes Group 22 (command)</primary>
+            <secondary>Scene 056. THREE-II-a. XBA</secondary></indexterm>
+        <indexterm type="echoes" zone="sc57">
+            <primary>Echoes Group 23 (fall)</primary>
+            <secondary>Scene 057. THREE-II-b. XBB</secondary></indexterm>
+        <indexterm type="echoes" zone="sc58">
+            <primary>Echoes Group 24 (processing)</primary>
+            <secondary>Scene 058. THREE-II-c. XBX</secondary></indexterm>
+        <indexterm type="echoes" zone="sc59">
+            <primary>Echoes Group 23 (fall)</primary>
+            <secondary>Scene 059. THREE-II-d. XBB′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc60">
+            <primary>Echoes Group 22 (command)</primary>
+            <secondary>Scene 060. THREE-II-e. XBA′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc61">
+            <primary>Echoes Group 25 (laugh)</primary>
+            <secondary>Scene 061. THREE-III-a. XXA</secondary></indexterm>
+        <indexterm type="echoes" zone="sc62">
+            <primary>Echoes Group 26 (roots)</primary>
+            <secondary>Scene 062. THREE-III-b. XXB</secondary></indexterm>
+        <indexterm type="echoes" zone="sc63">
+            <primary>Echoes Group 27 (sprawl)</primary>
+            <secondary>Scene 063. THREE-III-c. XXX (trifecta: new chapter</secondary></indexterm>
+        <indexterm type="echoes" zone="sc64">
+            <primary>Echoes Group 26 (roots)</primary>
+            <secondary>Scene 064. THREE-III-d. XXB′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc65">
+            <primary>Echoes Group 25 (laugh)</primary>
+            <secondary>Scene 065. THREE-III-e. XXA′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc66">
+            <primary>Echoes Group 22 (command)</primary>
+            <secondary>Scene 066. THREE-IV-a. XB′A</secondary></indexterm>
+        <indexterm type="echoes" zone="sc67">
+            <primary>Echoes Group 23 (fall)</primary>
+            <secondary>Scene 067. THREE-IV-b. XB′B</secondary></indexterm>
+        <indexterm type="echoes" zone="sc68">
+            <primary>Echoes Group 24 (processing)</primary>
+            <secondary>Scene 068. THREE-IV-c. XB′X</secondary></indexterm>
+        <indexterm type="echoes" zone="sc69">
+            <primary>Echoes Group 23 (fall)</primary>
+            <secondary>Scene 069. THREE-IV-d. XB′B′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc70">
+            <primary>Echoes Group 22 (command)</primary>
+            <secondary>Scene 070. THREE-IV-e. XB′A′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc71">
+            <primary>Echoes Group 19 (cracks)</primary>
+            <secondary>Scene 071. THREE-V-a. XA′A</secondary></indexterm>
+        <indexterm type="echoes" zone="sc72">
+            <primary>Echoes Group 20 (drain)</primary>
+            <secondary>Scene 072. THREE-V-b. XA′B</secondary></indexterm>
+        <indexterm type="echoes" zone="sc73">
+            <primary>Echoes Group 21 (restraint)</primary>
+            <secondary>Scene 073. THREE-V-c. XA′X</secondary></indexterm>
+        <indexterm type="echoes" zone="sc74">
+            <primary>Echoes Group 20 (drain)</primary>
+            <secondary>Scene 074. THREE-V-d. XA′B′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc75">
+            <primary>Echoes Group 19 (cracks)</primary>
+            <secondary>Scene 075. THREE-V-e. XA′A′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc76">
+            <primary>Echoes Group 10 (opening)</primary>
+            <secondary>Scene 076. FOUR-I-a. B′AA</secondary></indexterm>
+        <indexterm type="echoes" zone="sc77">
+            <primary>Echoes Group 11 (stars)</primary>
+            <secondary>Scene 077. FOUR-I-b. B′AB</secondary></indexterm>
+        <indexterm type="echoes" zone="sc78">
+            <primary>Echoes Group 12 (alphabet)</primary>
+            <secondary>Scene 078. FOUR-I-c. B′AX</secondary></indexterm>
+        <indexterm type="echoes" zone="sc79">
+            <primary>Echoes Group 11 (stars)</primary>
+            <secondary>Scene 079. FOUR-I-d. B′AB′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc80">
+            <primary>Echoes Group 10 (opening)</primary>
+            <secondary>Scene 080. FOUR-I-e. B′AA′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc81">
+            <primary>Echoes Group 13 (fruit)</primary>
+            <secondary>Scene 081. FOUR-II-a. B′BA</secondary></indexterm>
+        <indexterm type="echoes" zone="sc82">
+            <primary>Echoes Group 14 (song)</primary>
+            <secondary>Scene 082. FOUR-II-b. B′BB</secondary></indexterm>
+        <indexterm type="echoes" zone="sc83">
+            <primary>Echoes Group 15 (hook)</primary>
+            <secondary>Scene 083. FOUR-II-c. B′BX</secondary></indexterm>
+        <indexterm type="echoes" zone="sc84">
+            <primary>Echoes Group 14 (song)</primary>
+            <secondary>Scene 084. FOUR-II-d. B′BB′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc85">
+            <primary>Echoes Group 13 (fruit)</primary>
+            <secondary>Scene 085. FOUR-II-e. B′BA′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc86">
+            <primary>Echoes Group 16 (rodent)</primary>
+            <secondary>Scene 086. FOUR-III-a. B′XA</secondary></indexterm>
+        <indexterm type="echoes" zone="sc87">
+            <primary>Echoes Group 17 (hands)</primary>
+            <secondary>Scene 087. FOUR-III-b. B′XB</secondary></indexterm>
+        <indexterm type="echoes" zone="sc88">
+            <primary>Echoes Group 18 (crash)</primary>
+            <secondary>Scene 088. FOUR-III-c. B′XX</secondary></indexterm>
+        <indexterm type="echoes" zone="sc89">
+            <primary>Echoes Group 17 (hands)</primary>
+            <secondary>Scene 089. FOUR-III-d. B′XB′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc90">
+            <primary>Echoes Group 16 (rodent)</primary>
+            <secondary>Scene 090. FOUR-III-e. B′XA′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc91">
+            <primary>Echoes Group 13 (fruit)</primary>
+            <secondary>Scene 091. FOUR-IV-a. B′B′A</secondary></indexterm>
+        <indexterm type="echoes" zone="sc92">
+            <primary>Echoes Group 14 (song)</primary>
+            <secondary>Scene 092. FOUR-IV-b. B′B′B</secondary></indexterm>
+        <indexterm type="echoes" zone="sc93">
+            <primary>Echoes Group 15 (hook)</primary>
+            <secondary>Scene 093. FOUR-IV-c. B′B′X</secondary></indexterm>
+        <indexterm type="echoes" zone="sc94">
+            <primary>Echoes Group 14 (song)</primary>
+            <secondary>Scene 094. FOUR-IV-d. B′B′B′ (trifecta: new chapter)</secondary></indexterm>
+        <indexterm type="echoes" zone="sc95">
+            <primary>Echoes Group 13 (fruit)</primary>
+            <secondary>Scene 095. FOUR-IV-e. B′B′A′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc96">
+            <primary>Echoes Group 10 (opening)</primary>
+            <secondary>Scene 096. FOUR-V-a. B′A′A</secondary></indexterm>
+        <indexterm type="echoes" zone="sc97">
+            <primary>Echoes Group 11 (stars)</primary>
+            <secondary>Scene 097. FOUR-V-b. B′A′B</secondary></indexterm>
+        <indexterm type="echoes" zone="sc98">
+            <primary>Echoes Group 12 (alphabet)</primary>
+            <secondary>Scene 098. FOUR-V-c. B′A′X</secondary></indexterm>
+        <indexterm type="echoes" zone="sc99">
+            <primary>Echoes Group 11 (stars)</primary>
+            <secondary>Scene 099. FOUR-V-d. B′A′B′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc100">
+            <primary>Echoes Group 10 (opening)</primary>
+            <secondary>Scene 100. FOUR-V-e. B′A′A′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc101">
+            <primary>Echoes Group 01 (fox)</primary>
+            <secondary>Scene 101. FIVE-I-a. A′AA</secondary></indexterm>
+        <indexterm type="echoes" zone="sc102">
+            <primary>Echoes Group 02 (flames)</primary>
+            <secondary>Scene 102. FIVE-I-b. A′AB</secondary></indexterm>
+        <indexterm type="echoes" zone="sc103">
+            <primary>Echoes Group 03 (drink)</primary>
+            <secondary>Scene 103. FIVE-I-c. A′AX</secondary></indexterm>
+        <indexterm type="echoes" zone="sc104">
+            <primary>Echoes Group 02 (flames)</primary>
+            <secondary>Scene 104. FIVE-I-d. A′AB′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc105">
+            <primary>Echoes Group 01 (fox)</primary>
+            <secondary>Scene 105. FIVE-I-e. A′AA′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc106">
+            <primary>Echoes Group 04 (contacting)</primary>
+            <secondary>Scene 106. FIVE-II-a. A′BA</secondary></indexterm>
+        <indexterm type="echoes" zone="sc107">
+            <primary>Echoes Group 05 (magpie)</primary>
+            <secondary>Scene 107. FIVE-II-b. A′BB</secondary></indexterm>
+        <indexterm type="echoes" zone="sc108">
+            <primary>Echoes Group 06 (hole)</primary>
+            <secondary>Scene 108. FIVE-II-c. A′BX</secondary></indexterm>
+        <indexterm type="echoes" zone="sc109">
+            <primary>Echoes Group 05 (magpie)</primary>
+            <secondary>Scene 109. FIVE-II-d. A′BB′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc110">
+            <primary>Echoes Group 04 (contacting)</primary>
+            <secondary>Scene 110. FIVE-II-e. A′BA′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc111">
+            <primary>Echoes Group 07 (bottle)</primary>
+            <secondary>Scene 111. FIVE-III-a. A′XA</secondary></indexterm>
+        <indexterm type="echoes" zone="sc112">
+            <primary>Echoes Group 08 (frogs)</primary>
+            <secondary>Scene 112. FIVE-III-b. A′XB</secondary></indexterm>
+        <indexterm type="echoes" zone="sc113">
+            <primary>Echoes Group 09 (nest)</primary>
+            <secondary>Scene 113. FIVE-III-c. A′XX</secondary></indexterm>
+        <indexterm type="echoes" zone="sc114">
+            <primary>Echoes Group 08 (frogs)</primary>
+            <secondary>Scene 114. FIVE-III-d. A′XB′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc115">
+            <primary>Echoes Group 07 (bottle)</primary>
+            <secondary>Scene 115. FIVE-III-e. A′XA′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc116">
+            <primary>Echoes Group 04 (contacting)</primary>
+            <secondary>Scene 116. FIVE-IV-a. A′B′A</secondary></indexterm>
+        <indexterm type="echoes" zone="sc117">
+            <primary>Echoes Group 05 (magpie)</primary>
+            <secondary>Scene 117. FIVE-IV-b. A′B′B</secondary></indexterm>
+        <indexterm type="echoes" zone="sc118">
+            <primary>Echoes Group 06 (hole)</primary>
+            <secondary>Scene 118. FIVE-IV-c. A′B′X</secondary></indexterm>
+        <indexterm type="echoes" zone="sc119">
+            <primary>Echoes Group 05 (magpie)</primary>
+            <secondary>Scene 119. FIVE-IV-d. A′B′B′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc120">
+            <primary>Echoes Group 04 (contacting)</primary>
+            <secondary>Scene 120. FIVE-IV-e. A′B′A′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc121">
+            <primary>Echoes Group 01 (fox)</primary>
+            <secondary>Scene 121. FIVE-V-a. A′A′A</secondary></indexterm>
+        <indexterm type="echoes" zone="sc122">
+            <primary>Echoes Group 02 (flames)</primary>
+            <secondary>Scene 122. FIVE-V-b. A′A′B</secondary></indexterm>
+        <indexterm type="echoes" zone="sc123">
+            <primary>Echoes Group 03 (drink)</primary>
+            <secondary>Scene 123. FIVE-V-c. A′A′X</secondary></indexterm>
+        <indexterm type="echoes" zone="sc124">
+            <primary>Echoes Group 02 (flames)</primary>
+            <secondary>Scene 124. FIVE-V-d. A′A′B′</secondary></indexterm>
+        <indexterm type="echoes" zone="sc125">
+            <primary>Echoes Group 01 (fox)</primary>
+            <secondary>Scene 125, FIVE-V-e. A′A′A′</secondary></indexterm>
+    </index>
+    <!-- 0000000000000000000000000000000000000-->
+    <!-- 000000oooooo CLOCK INDEX oooooo000000-->
+    <!-- 0000000000000000000000000000000000000-->
+    <index type="clock">
+        <title>Clock index with Echoes Groups</title>
+        <para>Text.</para>
+        <indexterm type="clock" zone="sc1">
+            <primary sortas="s001">Scene 001. ONE-I-a. AAA (trifecta: new chapter). Echoes Group 01
+                (fox)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc2">
+            <primary sortas="s002">Scene 002. ONE-I-b. AAB. Echoes Group 02 (flames)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc3">
+            <primary sortas="s003">Scene 003. ONE-I-c. AAX. Echoes Group 03 (drink)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc4">
+            <primary sortas="s004">Scene 004. ONE-I-d. AAB′. Echoes Group 02 (flames)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc5">
+            <primary sortas="s005">Scene 005. ONE-I-e. AAA′. Echoes Group 01 (fox)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc6">
+            <primary sortas="s006">Scene 006. ONE-II-a. ABA. Echoes Group 04 (contacting)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc7">
+            <primary sortas="s007">Scene 007. ONE-II-b. ABB. Echoes Group 05 (crow)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc8">
+            <primary sortas="s008">Scene 008. ONE-II-c. ABX. Echoes Group 06 (hole)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc9">
+            <primary sortas="s009">Scene 009. ONE-II-d. ABB′. Echoes Group 05 (crow)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc10">
+            <primary sortas="s010">Scene 010. ONE-II-e. ABA′. Echoes Group 04 (contacting)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc11">
+            <primary sortas="s011">Scene 011. ONE-III-a. AXA. Echoes Group 07 (bottle)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc12">
+            <primary sortas="s012">Scene 012. ONE-III-b. AXB. Echoes Group 08 (frogs)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc13">
+            <primary sortas="s013">Scene 013. ONE-III-c. AXX. Echoes Group 09 (nest)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc14">
+            <primary sortas="s014">Scene 014. ONE-III-d. AXB′. Echoes Group 08 (frogs)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc15">
+            <primary sortas="s015">Scene 015. ONE-IV-e. AXA′. Echoes Group 07 (bottle)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc16">
+            <primary sortas="s016">Scene 016. ONE-IV-a. AB′A. Echoes Group 04 (contacting)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc17">
+            <primary sortas="s017">Scene 017. ONE-IV-b. AB′B. Echoes Group 05 (crow)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc18">
+            <primary sortas="s018">Scene 018. ONE-IV-c. AB′X. Echoes Group 06 (hole)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc19">
+            <primary sortas="s019">Scene 019. ONE-IV-d. AB′B′. Echoes Group 05 (crow)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc20">
+            <primary sortas="s020">Scene 020. ONE-IV-e. AB′A′. Echoes Group 04
+                (contacting)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc21">
+            <primary sortas="s021">Scene 021. ONE-V-a. AA′A. Echoes Group 01 (fox)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc22">
+            <primary sortas="s022">Scene 022. ONE-V-b. AA′B. Echoes Group 02 (flames)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc23">
+            <primary sortas="s023">Scene 023. ONE-V-c. AA′X. Echoes Group 03 (drink)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc24">
+            <primary sortas="s024">Scene 024. ONE-V-d. AA′B′. Echoes Group 02 (flames)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc25">
+            <primary sortas="s025">Scene 025. ONE-V-e. AA′A′. Echoes Group 01 (fox)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc26">
+            <primary sortas="s026">Scene 026. TWO-I-a. BAA. Echoes Group 10 (opening)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc27">
+            <primary sortas="s027">Scene 027. TWO-I-b. BAB. Echoes Group 11 (stars)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc28">
+            <primary sortas="s028">Scene 028. TWO-I-c. BAX. Echoes Group 12 (alphabet)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc29">
+            <primary sortas="s029">Scene 029. TWO-I-d. BAB′. Echoes Group 11 (stars)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc30">
+            <primary sortas="s030">Scene 030. TWO-I-e. BAA′. Echoes Group 10 (opening)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc31">
+            <primary sortas="s031">Scene 031. TWO-II-a. BBA. Echoes Group 13 (fruit)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc32">
+            <primary sortas="s032">Scene 032. TWO-II-b. BBB (trifecta: new chapter). Echoes Group 14
+                (song)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc33">
+            <primary sortas="s033">Scene 033. TWO-II-c. BBX. Echoes Group 15 (hook)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc34">
+            <primary sortas="s034">Scene 034. TWO-II-d. BBB′. Echoes Group 14 (song)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc35">
+            <primary sortas="s035">Scene 035. TWO-II-e. BBA′. Echoes Group 13 (fruit)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc36">
+            <primary sortas="s036">Scene 036. TWO-III-a. BXA. Echoes Group 16 (rodent)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc37">
+            <primary sortas="s037">Scene 037. TWO-III-b. BXB. Echoes Group 17 (hands)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc38">
+            <primary sortas="s038">Scene 038. TWO-III-c. BXX. Echoes Group 18 (crash)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc39">
+            <primary sortas="s039">Scene 039. TWO-III-d. BXB′. Echoes Group 17 (hands)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc40">
+            <primary sortas="s040">Scene 040. TWO-III-e. BXA′. Echoes Group 16 (rodent)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc41">
+            <primary sortas="s041">Scene 041. TWO-IV-a. BB′A. Echoes Group 13 (fruit)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc42">
+            <primary sortas="s042">Scene 042. TWO-IV-b. BB′B. Echoes Group 14 (song)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc43">
+            <primary sortas="s043">Scene 043. TWO-IV-c. BB′X. Echoes Group 15 (hook)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc44">
+            <primary sortas="s044">Scene 044. TWO-IV-d. BB′B′. Echoes Group 14 (song)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc45">
+            <primary sortas="s045">Scene 045. TWO-IV-e. BB′A′. Echoes Group 13 (fruit)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc46">
+            <primary sortas="s046">Scene 046. TWO-V-a. BA′A. Echoes Group 10 (opening)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc47">
+            <primary sortas="s047">Scene 047. TWO-V-b. BA′B. Echoes Group 11 (stars)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc48">
+            <primary sortas="s048">Scene 048. TWO-V-c. BA′X. Echoes Group 12 (alphabet)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc49">
+            <primary sortas="s049">Scene 049. TWO-V-d. BA′B′. Echoes Group 11 (stars)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc50">
+            <primary sortas="s050">Scene 050. TWO-V-e. BA′A′. Echoes Group 10 (opening)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc51">
+            <primary sortas="s051">Scene 051. THREE-I-a. XAA. Echoes Group 19 (cracks)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc52">
+            <primary sortas="s052">Scene 052. THREE-I-b. XAB. Echoes Group 20 (drain)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc53">
+            <primary sortas="s053">Scene 053. THREE-I-c. XAX. Echoes Group 21 (restraint)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc54">
+            <primary sortas="s054">Scene 054. THREE-I-d. XAB′. Echoes Group 20 (drain)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc55">
+            <primary sortas="s055">Scene 055. THREE-I-e. XAA′. Echoes Group 19 (cracks)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc56">
+            <primary sortas="s056">Scene 056. THREE-II-a. XBA. Echoes Group 22 (command)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc57">
+            <primary sortas="s057">Scene 057. THREE-II-b. XBB. Echoes Group 23 (fall)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc58">
+            <primary sortas="s058">Scene 058. THREE-II-c. XBX. Echoes Group 24
+                (processing)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc59">
+            <primary sortas="s059">Scene 059. THREE-II-d. XBB′. Echoes Group 23 (fall)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc60">
+            <primary sortas="s060">Scene 060. THREE-II-e. XBA′. Echoes Group 22 (command)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc61">
+            <primary sortas="s061">Scene 061. THREE-III-a. XXA. Echoes Group 25 (laugh)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc62">
+            <primary sortas="s062">Scene 062. THREE-III-b. XXB. Echoes Group 26 (roots)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc63">
+            <primary sortas="s063">Scene 063. THREE-III-c. XXX (trifecta: new chapter). Echoes Group
+                27 (sprawl)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc64">
+            <primary sortas="s064">Scene 064. THREE-III-d. XXB′. Echoes Group 26 (roots)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc65">
+            <primary sortas="s065">Scene 065. THREE-III-e. XXA′. Echoes Group 25 (laugh)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc66">
+            <primary sortas="s066">Scene 066. THREE-IV-a. XB′A. Echoes Group 22 (command)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc67">
+            <primary sortas="s067">Scene 067. THREE-IV-b. XB′B. Echoes Group 23 (fall)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc68">
+            <primary sortas="s068">Scene 068. THREE-IV-c. XB′X. Echoes Group 24
+                (processing)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc69">
+            <primary sortas="s069">Scene 069. THREE-IV-d. XB′B′. Echoes Group 23 (fall)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc70">
+            <primary sortas="s070">Scene 070. THREE-IV-e. XB′A′. Echoes Group 22 (command)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc71">
+            <primary sortas="s071">Scene 071. THREE-V-a. XA′A. Echoes Group 19 (cracks)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc72">
+            <primary sortas="s072">Scene 072. THREE-V-b. XA′B. Echoes Group 20 (drain)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc73">
+            <primary sortas="s073">Scene 073. THREE-V-c. XA′X. Echoes Group 21 (restraint)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc74">
+            <primary sortas="s074">Scene 074. THREE-V-d. XA′B′. Echoes Group 20 (drain)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc75">
+            <primary sortas="s075">Scene 075. THREE-V-e. XA′A′. Echoes Group 19 (cracks)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc76">
+            <primary sortas="s076">Scene 076. FOUR-I-a. B′AA. Echoes Group 10 (opening)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc77">
+            <primary sortas="s077">Scene 077. FOUR-I-b. B′AB. Echoes Group 11 (stars)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc78">
+            <primary sortas="s078">Scene 078. FOUR-I-c. B′AX. Echoes Group 12 (alphabet)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc79">
+            <primary sortas="s079">Scene 079. FOUR-I-d. B′AB′. Echoes Group 11 (stars)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc80">
+            <primary sortas="s080">Scene 080. FOUR-I-e. B′AA′. Echoes Group 10 (opening)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc81">
+            <primary sortas="s081">Scene 081. FOUR-II-a. B′BA. Echoes Group 13 (fruit)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc82">
+            <primary sortas="s082">Scene 082. FOUR-II-b. B′BB. Echoes Group 14 (song)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc83">
+            <primary sortas="s083">Scene 083. FOUR-II-c. B′BX. Echoes Group 15 (hook)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc84">
+            <primary sortas="s084">Scene 084. FOUR-II-d. B′BB′. Echoes Group 14 (song)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc85">
+            <primary sortas="s085">Scene 085. FOUR-II-e. B′BA′. Echoes Group 13 (fruit)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc86">
+            <primary sortas="s086">Scene 086. FOUR-III-a. B′XA. Echoes Group 16 (rodent)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc87">
+            <primary sortas="s087">Scene 087. FOUR-III-b. B′XB. Echoes Group 17 (hands)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc88">
+            <primary sortas="s088">Scene 088. FOUR-III-c. B′XX. Echoes Group 18 (crash)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc89">
+            <primary sortas="s089">Scene 089. FOUR-III-d. B′XB′. Echoes Group 17 (hands)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc90">
+            <primary sortas="s090">Scene 090. FOUR-III-e. B′XA′. Echoes Group 16 (rodent)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc91">
+            <primary sortas="s091">Scene 091. FOUR-IV-a. B′B′A. Echoes Group 13 (fruit)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc92">
+            <primary sortas="s092">Scene 092. FOUR-IV-b. B′B′B. Echoes Group 14 (song)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc93">
+            <primary sortas="s093">Scene 093. FOUR-IV-c. B′B′X. Echoes Group 15 (hook)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc94">
+            <primary sortas="s094">Scene 094. FOUR-IV-d. B′B′B′ (trifecta: new chapter). Echoes
+                Group 14 (song)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc95">
+            <primary sortas="s095">Scene 095. FOUR-IV-e. B′B′A′. Echoes Group 13 (fruit)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc96">
+            <primary sortas="s096">Scene 096. FOUR-V-a. B′A′A. Echoes Group 10 (opening)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc97">
+            <primary sortas="s097">Scene 097. FOUR-V-b. B′A′B. Echoes Group 11 (stars)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc98">
+            <primary sortas="s098">Scene 098. FOUR-V-c. B′A′X. Echoes Group 12 (alphabet)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc99">
+            <primary sortas="s099">Scene 099. FOUR-V-d. B′A′B′. Echoes Group 11 (stars)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc100">
+            <primary sortas="s100">Scene 100. FOUR-V-e. B′A′A′. Echoes Group 10 (opening)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc101">
+            <primary sortas="s101">Scene 101. FIVE-I-a. A′AA. Echoes Group 01 (fox)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc102">
+            <primary sortas="s102">Scene 102. FIVE-I-b. A′AB. Echoes Group 01 (flames)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc103">
+            <primary sortas="s103">Scene 103. FIVE-I-c. A′AX. Echoes Group 01 (drink)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc104">
+            <primary sortas="s104">Scene 104. FIVE-I-d. A′AB′. Echoes Group 01 (flames)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc105">
+            <primary sortas="s105">Scene 105. FIVE-I-e. A′AA′. Echoes Group 01 (fox)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc106">
+            <primary sortas="s106">Scene 106. FIVE-II-a. A′BA. Echoes Group 04
+                (contacting)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc107">
+            <primary sortas="s107">Scene 107. FIVE-II-b. A′BB. Echoes Group 05 (crow)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc108">
+            <primary sortas="s108">Scene 108. FIVE-II-c. A′BX. Echoes Group 06 (hole)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc109">
+            <primary sortas="s109">Scene 109. FIVE-II-d. A′BB′. Echoes Group 05 (crow)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc110">
+            <primary sortas="s110">Scene 110. FIVE-II-e. A′BA′. Echoes Group 04
+                (contacting)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc111">
+            <primary sortas="s111">Scene 111. FIVE-III-a. A′XA. Echoes Group 07 (bottle)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc112">
+            <primary sortas="s112">Scene 112. FIVE-III-b. A′XB. Echoes Group 08 (frogs)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc113">
+            <primary sortas="s113">Scene 113. FIVE-III-c. A′XX. Echoes Group 09 (nest)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc114">
+            <primary sortas="s114">Scene 114. FIVE-III-d. A′XB′. Echoes Group 08 (frogs)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc115">
+            <primary sortas="s115">Scene 115. FIVE-III-e. A′XA′. Echoes Group 07 (bottle)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc116">
+            <primary sortas="s116">Scene 116. FIVE-IV-a. A′B′A. Echoes Group 04
+                (contacting)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc117">
+            <primary sortas="s117">Scene 117. FIVE-IV-b. A′B′B. Echoes Group 05 (crow)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc118">
+            <primary sortas="s118">Scene 118. FIVE-IV-c. A′B′X. Echoes Group 06 (hole)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc119">
+            <primary sortas="s119">Scene 119. FIVE-IV-d. A′B′B′. Echoes Group 05 (crow)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc120">
+            <primary sortas="s120">Scene 120. FIVE-IV-e. A′B′A′. Echoes Group 04
+                (contacting)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc121">
+            <primary sortas="s121">Scene 121. FIVE-V-a. A′A′A. Echoes Group 01 (fox)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc122">
+            <primary sortas="s122">Scene 122. FIVE-V-b. A′A′B. Echoes Group 02 (flames)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc123">
+            <primary sortas="s123">Scene 123. FIVE-V-c. A′A′X. Echoes Group 03 (drink)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc124">
+            <primary sortas="s124">Scene 124. FIVE-V-d. A′A′B′. Echoes Group 02 (flames)</primary>
+        </indexterm>
+        <indexterm type="clock" zone="sc125">
+            <primary sortas="s125">Scene 125. FIVE-V-e. A′A′A′ (trifecta: epilogue). Echoes Group 01
+                (fox)</primary>
+        </indexterm>
+    </index>
+    <!-- 0000000000000000000000000000000000-->
+    <!-- 000000oooooo APPENDIX oooooo000000-->
+    <!-- 0000000000000000000000000000000000-->
+    <appendix>
+
+        <title>Clock and Echoes tabulated</title>
+        <para>
+            <informalfigure>
+
+                <mediaobject>
+                    <imageobject>
+                        <imagedata fileref="img/groups-table-bw.png" align="center" width="16cm"/>
+                    </imageobject>
+                </mediaobject>
+
+            </informalfigure>
+        </para>
+
+    </appendix>
+
+    <!-- 00000000000000000000000000000000000000-->
+    <!-- 000000oooooo APPENDIX END oooooo000000-->
+    <!-- 00000000000000000000000000000000000000-->
+</book>
