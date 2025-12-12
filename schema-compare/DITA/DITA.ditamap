@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>The Constitution of the United States</title>
+    <topicref href="preamble.dita"/>
+    <topicref href="article-1.dita"/>
+    <topicref href="article-2.dita"/>
+    <topicref href="article-3.dita"/>
+    <topicref href="article-4.dita"/>
+    <topicref href="article-5.dita"/>
+    <topicref href="article-6.dita"/>
+    <topicref href="article-7.dita"/>
+</map>
