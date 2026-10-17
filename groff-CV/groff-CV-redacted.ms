@@ -1,15 +1,15 @@
 .\" Process this file with
-.\"  groff -ms -Tps 2025a.ms | ps2pdf - out.pdf
+.\"  groff -ms -Tps [filename].ms | ps2pdf - out.pdf
 .TL  
 John Tait's CV
 .AU
-Updated May 2025
+Updated August 2026
 .LP
 .2C
 .B1 
 .B
 .sp 0.5
-Requirements management and technical standards publishing professional. All related activities and tools: drafting, reviewing and publishing, technical editing, DITA and XML publishing, IBM/Rational DOORS, non-compliance management (deviations/variations), Teams/Sharepoint, BowTieXP, Documentum, reports, and more.
+Technical standards publishing professional. All related activities and tools: managing authors, technical editing, stakeholder reviews and publishing. Expert DITA and XML publishing, IBM/Rational DOORS, non-compliance management (deviations/variations), Teams/Sharepoint, BowTieXP, Documentum, reports, and more.
 .sp 0.5
 .R
 .\" .IP \[bu] 2
@@ -31,9 +31,9 @@ GETTING IN TOUCH
 .B
 Dr. John Tait.
 .CW
-[redacted].
+johngtait@gmail.com.
 .R
-Mobile: [redacted]. Home: [redacted]. Based in London. Driving licence.
+Mobile: [redacted]. Based in London. Driving licence.
 .\" References on request.
 .nr PS 12
 .sp 0.25 .\" Gentle spacing
@@ -42,20 +42,35 @@ ROLES
 .nr PS 10
 .LP
 .B
-Technical Author (contract).
+Technical Writer.
+.B
+Martin-Baker Aircraft Company.
+.R
+Lower Road, Higher Denham, near Uxbridge, Middlesex. UB9 5AJ. September 2025\-present.
+.IP \[bu] 2
+Saving lives through excellence in aerospace safety (ejection seats).
+.IP \[bu] 2
+Produce technical specifications based on incident reports, compliance reports, new methods and test data.
+.IP \[bu] 2
+Manage all aspects of a publications process where safety and compliance is critical.
+.IP \[bu] 2
+Work closely with aerospace engineers and production managers and manage their comments through formal stakeholder reviews.
+.IP \[bu] 2
+Ensure specifications conform to house style, civilian standards, defence standards and internal requirements.
+.sp 0.5
+.LP
+.B
+Contract Technical Author.
 .B
 Johnson Matthey.
 .R
-33 Jeffreys Rd, Brimsdown, Enfield. EN3 7PW. March 2025\-present.
+33 Jeffreys Road, Brimsdown, Enfield. EN3 7PW. March 2025\-September 2025.
 .IP \[bu] 2
-Developing Maintenance documentation and quality processes.
-.IP \[bu] 2
-Working with Engineering teams in high-security on-site environment.
+Developed maintenance documentation and quality processes in high-security on-site environment.
 .sp 0.5
 .LP
-.LP
 .B
-Digital Content Analyst.
+Digital Content Analyst (DITA XML).
 .B
 Rail Safety and Standards Board.
 .R
@@ -63,20 +78,23 @@ Rail Safety and Standards Board.
 .IP \[bu] 2
 Developed RSSB railway standards and the digital Rule Book App.
 .IP \[bu] 2
-Managed end-to-end process for non-compliance appplications (permission to deviate from standards).
+Provided technical and writing support to produce structured requirements in DITA XML.
 .IP \[bu] 2
-Provided technical and writing assistance to produce structured requirements in DITA XML.
+Trained, coached and mentored authors from the standards community in DITA authoring.
 .IP \[bu] 2
-Coached and mentored authors from our standards community.
+Liaised with third party suppliers (Contiem/Mekon) to update DITA-OT plug-ins.
+.IP \[bu] 2
+Resolved technical issues with Heretto DITA CMS and XSL-FO toolchain as superuser.
+.\" .IP \[bu] 2
+.\" Managed end-to-end process for non-compliance appplications (permission to deviate from standards).
 .sp 0.5
-.LP
 .LP
 .B
 Technical Editor.
 .B
 International Association of Oil & Gas Producers (IOGP).
 .R 
-40 Basinghall\0St., London. EC2V 5DE. 2014\-2018.
+40 Basinghall\0Street, London. EC2V 5DE. 2014\-2018.
 .IP \[bu] 2
 Worked with the world's oil & gas exploration and production companies to develop visible, accessible and reliable sources of information.
 .IP \[bu]
@@ -89,8 +107,8 @@ Managed the Designer role to produce beautiful documents to the highest standard
 Coached and guided Committee Managers on effective drafting and proposals.
 .\" .IP \[bu] 
 .\" Helped committees deliver each standard to meet its Scope and proposal.
-.IP \[bu]
-Provided standardisation advice for procurement specifications.
+.\" .IP \[bu]
+.\" Provided standardisation advice for procurement specifications.
 .sp 0.5
 .LP
 .B
@@ -108,7 +126,7 @@ Designed and modularised Network Rail's essential rail track inspection standard
 .I
 Track\0001
 .R
-\- turned it into simple modules.
+\- turned it into simple topics.
 .IP \[bu]
 Wrote training material for standards and supporting documents.
 .IP \[bu] 2
@@ -117,10 +135,11 @@ Wrote migration guidance for DOORS requirements management database and supporte
 BowTieXP for risk visualisation.
 .IP \[bu] 2
 Documentum for corporate content management.
-.sp 0.5
+.\" page break
+.bp
 .LP
 .B
-Content Developer.
+Lead Standards Content Developer.
 .B
 British Standards Institution (BSI).
 .R
@@ -135,10 +154,7 @@ Managed authors, panels and working group meetings.
 Edited draft standards for structure, consistency and conformity to standards style.
 .IP \[bu]
 Worked closely with production staff and Drawing Office.
-.IP \[bu] 2
-Promoted to lead Content Developer.
-.\" page break
-.bp
+.sp 0.5
 .LP
 .B
 Voluntary Literacy Class Assistant (evenings). City and Islington College.
@@ -149,7 +165,7 @@ London (Islington). 2001\-2002, weekly. Coached adults to support their reading 
 .B
 Voluntary Duty Manager (weekends). Oxfam.
 .R
-London (West Hampsted store) & Manchester (Didsbury store). 1995\-2002.
+London (West Hampsted store) and Manchester (Didsbury store). 1995\-2002.
 .IP \[bu] 2
 Managed and trained other volunteers.
 .IP \[bu] 2
@@ -200,7 +216,7 @@ SKILLS, QUALIFICATIONS
 .B
 Publishing and computer skills.
 .R
-Advanced Word, Teams/Sharepoint and MS Office, BowTieXP for bow tie risk management, IBM/Rational DOORS requirements management database, Documentum for revision control, expert XML structured authoring (DITA, oXygen XML, Heretto CMS, DocBook), SVG (Inkscape, etc.), Adobe Acrobat, EPUB electronic books, LaTeX for document preparation, text editing including Markdown, Linux.
+Expert XML structured authoring (DITA, oXygen XML, Heretto DITA CMS, DocBook), Advanced Word, Teams/Sharepoint and MS Office, BowTieXP for bow tie risk management, IBM/Rational DOORS requirements management database, Documentum CMS, SVG (Inkscape, etc.), Adobe Acrobat, EPUB electronic books, text processing with LaTeX, groff, Markdown, Linux.
 .sp 0.5
 .IP \[bu] 2
 .B
@@ -234,7 +250,7 @@ Coaching and mentoring, Document control, ISO 9000, Quality, etc.
 .B
 Published author.
 .R
-Stories published in genre fiction print journals.
+Stories published in genre fiction print journals and own imprint using DocBook XML toolchain.
 .sp 0.5
 .IP \[bu] 2
 .B
