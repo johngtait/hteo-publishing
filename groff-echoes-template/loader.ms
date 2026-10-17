@@ -22,7 +22,7 @@
 .\" .AU
 .\" My name
 .\" .AB no
-.\" This is the main file for mamaging the novel. The content of the novel is called my the "so" [sic] command.
+.\" Abstract text.
 .\" .sp 4
 .\" .AE
 .\" .PSPIC my-postscript-image.ps
