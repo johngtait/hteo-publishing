@@ -33,7 +33,3 @@
 .\" .XE
 .\" .bp
 .so groff-nov.txt
-.TC
-.sp 2
-.I
-This table of contents appears back here from a fascinating limit of the particular 1970s technology I used to build it. The single-pass formatter can produce only what the table of content macro collects up to the point where it appears.
