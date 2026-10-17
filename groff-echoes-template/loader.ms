@@ -16,23 +16,23 @@
 .\" paragraph indentation
 .nr PI 0.13i
 .\" spacing between paragraphs
-.nr PD 0.05v
-.TL
-My title
-.AU
-My name
-.AB no
-This is the main file for mamaging the novel. The content of the novel is called my the "so" [sic] command.
-.sp 4
-.AE
-.PSPIC my-postscript-image.ps
-.LP
-.sp 1
-.XS
-Text.
-.XE
-.bp
-.so groff-ehoes-template.ms
+.nr PD 0.01v
+.\" .TL
+.\" My title
+.\" .AU
+.\" My name
+.\" .AB no
+.\" This is the main file for mamaging the novel. The content of the novel is called my the "so" [sic] command.
+.\" .sp 4
+.\" .AE
+.\" .PSPIC my-postscript-image.ps
+.\" .LP
+.\" .sp 1
+.\" .XS
+.\" Text.
+.\" .XE
+.\" .bp
+.so groff-nov.txt
 .TC
 .sp 2
 .I
