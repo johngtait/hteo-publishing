@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_mqb_wq1_5kc">
+    <title>My Echoes book</title>
+    <shortdesc>My echoes book conrefs 27 topics for 125 sections in Echoes chiastic
+        order.</shortdesc>
+    <conbody>
+        <p/>
+        
+ 
+        
+        <section conref="group-1.dita#group_1/section_1"></section>
+        <section conref="group-2.dita#group_2/section_1"></section>      
+        <section conref="group-3.dita#group_3/section_1"></section>    
+        <section conref="group-2.dita#group_2/section_2"></section>  
+        <section conref="group-1.dita#group_1/section_2"></section>      
+   
+        <section conref="group-4.dita#group_4/section_1"></section>
+        <section conref="group-5.dita#group_5/section_1"></section>      
+        <section conref="group-6.dita#group_6/section_1"></section>    
+        <section conref="group-5.dita#group_5/section_2"></section>  
+        <section conref="group-4.dita#group_4/section_2"></section>        
+        
+        <section conref="group-7.dita#group_7/section_1"></section>
+        <section conref="group-8.dita#group_8/section_1"></section>      
+        <section conref="group-9.dita#group_9/section_1"></section>    
+        <section conref="group-8.dita#group_8/section_2"></section>  
+        <section conref="group-7.dita#group_7/section_2"></section>        
+        
+        <section conref="group-4.dita#group_4/section_3"></section>
+        <section conref="group-5.dita#group_5/section_3"></section>      
+        <section conref="group-6.dita#group_6/section_2"></section>    
+        <section conref="group-5.dita#group_5/section_4"></section>  
+        <section conref="group-4.dita#group_4/section_4"></section>  
+        
+        <section conref="group-1.dita#group_1/section_3"></section>
+        <section conref="group-2.dita#group_2/section_3"></section>      
+        <section conref="group-3.dita#group_3/section_2"></section>    
+        <section conref="group-2.dita#group_2/section_4"></section>  
+        <section conref="group-1.dita#group_1/section_4"></section>      
+        
+        
+        
+<!-- 00000000 -->
+        
+        <section conref="group-10.dita#group_10/section_1"></section>
+        <section conref="group-11.dita#group_11/section_1"></section>      
+        <section conref="group-12.dita#group_12/section_1"></section>    
+        <section conref="group-11.dita#group_11/section_2"></section>  
+        <section conref="group-10.dita#group_10/section_2"></section>        
+        
+        <section conref="group-13.dita#group_13/section_1"></section>
+        <section conref="group-14.dita#group_14/section_1"></section>      
+        <section conref="group-15.dita#group_15/section_1"></section>    
+        <section conref="group-14.dita#group_14/section_2"></section>  
+        <section conref="group-13.dita#group_13/section_2"></section>      
+   
+        <section conref="group-16.dita#group_16/section_1"></section>
+        <section conref="group-17.dita#group_17/section_1"></section>      
+        <section conref="group-18.dita#group_18/section_1"></section>    
+        <section conref="group-17.dita#group_17/section_2"></section>  
+        <section conref="group-16.dita#group_16/section_2"></section>    
+
+        <section conref="group-13.dita#group_13/section_3"></section>
+        <section conref="group-14.dita#group_14/section_3"></section>      
+        <section conref="group-15.dita#group_15/section_2"></section>    
+        <section conref="group-14.dita#group_14/section_4"></section>  
+        <section conref="group-13.dita#group_13/section_4"></section>     
+        
+        <section conref="group-10.dita#group_10/section_3"></section>
+        <section conref="group-11.dita#group_11/section_3"></section>      
+        <section conref="group-12.dita#group_12/section_2"></section>    
+        <section conref="group-11.dita#group_11/section_4"></section>  
+        <section conref="group-10.dita#group_10/section_4"></section>   
+        
+        
+<!-- 00000000 -->     
+        
+        
+
+        <section conref="group-19.dita#group_19/section_1"></section>
+        <section conref="group-20.dita#group_20/section_1"></section>      
+        <section conref="group-21.dita#group_21/section_1"></section>    
+        <section conref="group-20.dita#group_20/section_2"></section>  
+        <section conref="group-19.dita#group_19/section_2"></section>    
+  
+        <section conref="group-22.dita#group_22/section_1"></section>
+        <section conref="group-23.dita#group_23/section_1"></section>      
+        <section conref="group-24.dita#group_24/section_1"></section>    
+        <section conref="group-23.dita#group_23/section_2"></section>  
+        <section conref="group-22.dita#group_22/section_2"></section>    
+        
+        <section conref="group-25.dita#group_25/section_1"></section>
+        <section conref="group-26.dita#group_26/section_1"></section>      
+        <section conref="group-27.dita#group_27/section_1"></section>    
+        <section conref="group-26.dita#group_26/section_2"></section>  
+        <section conref="group-25.dita#group_25/section_2"></section>    
+       
+        <section conref="group-22.dita#group_22/section_3"></section>
+        <section conref="group-23.dita#group_23/section_3"></section>      
+        <section conref="group-24.dita#group_24/section_2"></section>    
+        <section conref="group-23.dita#group_23/section_4"></section>  
+        <section conref="group-22.dita#group_22/section_4"></section>    
+        
+        <section conref="group-19.dita#group_19/section_3"></section>
+        <section conref="group-20.dita#group_20/section_3"></section>      
+        <section conref="group-21.dita#group_21/section_2"></section>    
+        <section conref="group-20.dita#group_20/section_4"></section>  
+        <section conref="group-19.dita#group_19/section_4"></section>    
+        
+        <!-- 00000000 -->     
+        
+         <section conref="group-10.dita#group_10/section_5"></section>
+        <section conref="group-11.dita#group_11/section_5"></section>      
+        <section conref="group-12.dita#group_12/section_3"></section>    
+        <section conref="group-11.dita#group_11/section_6"></section>  
+        <section conref="group-10.dita#group_10/section_6"></section>        
+        
+        <section conref="group-13.dita#group_13/section_5"></section>
+        <section conref="group-14.dita#group_14/section_5"></section>      
+        <section conref="group-15.dita#group_15/section_3"></section>    
+        <section conref="group-14.dita#group_14/section_6"></section>  
+        <section conref="group-13.dita#group_13/section_6"></section>      
+   
+        <section conref="group-16.dita#group_16/section_3"></section>
+        <section conref="group-17.dita#group_17/section_3"></section>      
+        <section conref="group-18.dita#group_18/section_2"></section>    
+        <section conref="group-17.dita#group_17/section_4"></section>  
+        <section conref="group-16.dita#group_16/section_4"></section>    
+
+        <section conref="group-13.dita#group_13/section_7"></section>
+        <section conref="group-14.dita#group_14/section_7"></section>      
+        <section conref="group-15.dita#group_15/section_4"></section>    
+        <section conref="group-14.dita#group_14/section_8"></section>  
+        <section conref="group-13.dita#group_13/section_8"></section>     
+        
+        <section conref="group-10.dita#group_10/section_7"></section>
+        <section conref="group-11.dita#group_11/section_7"></section>      
+        <section conref="group-12.dita#group_12/section_4"></section>    
+        <section conref="group-11.dita#group_11/section_8"></section>  
+        <section conref="group-10.dita#group_10/section_8"></section>      
+        
+
+<!-- 000000-->
+        
+        
+        <section conref="group-1.dita#group_1/section_5"></section>
+        <section conref="group-2.dita#group_2/section_5"></section>      
+        <section conref="group-3.dita#group_3/section_3"></section>    
+        <section conref="group-2.dita#group_2/section_6"></section>  
+        <section conref="group-1.dita#group_1/section_6"></section>      
+   
+        <section conref="group-4.dita#group_4/section_5"></section>
+        <section conref="group-5.dita#group_5/section_5"></section>      
+        <section conref="group-6.dita#group_6/section_3"></section>    
+        <section conref="group-5.dita#group_5/section_6"></section>  
+        <section conref="group-4.dita#group_4/section_6"></section>        
+        
+        <section conref="group-7.dita#group_7/section_3"></section>
+        <section conref="group-8.dita#group_8/section_3"></section>      
+        <section conref="group-9.dita#group_9/section_2"></section>    
+        <section conref="group-8.dita#group_8/section_4"></section>  
+        <section conref="group-7.dita#group_7/section_4"></section>        
+        
+        <section conref="group-4.dita#group_4/section_7"></section>
+        <section conref="group-5.dita#group_5/section_7"></section>      
+        <section conref="group-6.dita#group_6/section_4"></section>    
+        <section conref="group-5.dita#group_5/section_8"></section>  
+        <section conref="group-4.dita#group_4/section_8"></section>  
+        
+        <section conref="group-1.dita#group_1/section_7"></section>
+        <section conref="group-2.dita#group_2/section_7"></section>      
+        <section conref="group-3.dita#group_3/section_4"></section>    
+        <section conref="group-2.dita#group_2/section_8"></section>  
+        <section conref="group-1.dita#group_1/section_8"></section>      
+         
+
+ 
+        
+    </conbody>        
+</concept>

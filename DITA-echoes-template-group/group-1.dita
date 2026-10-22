@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="group_1">
+    <title>Group 1: Group of 8</title>
+    <body>
+        <section id="section_1">
+            <title>Scene 1. ONE-I-a. Group 1 (1 of 8)</title>
+            <p/>
+        </section>
+        <section id="section_2">
+            <title>Scene 5. ONE-I-e. Group 1 (2 of 8)</title>
+            <p/>
+        </section>
+        <section id="section_3">
+            <title>Scene 21. ONE-V-a. Group 1 (3 of 8)</title>
+            <p/>
+        </section>
+        <section id="section_4">
+            <title>Scene 25. ONE-V-e. Group 1 (4 of 8)</title>
+            <p/>
+        </section>
+        <section id="section_5">
+            <title>Scene 101. FIVE-I-a. Group 1 (5 of 8)</title>
+            <p/>
+        </section>
+        <section id="section_6">
+            <title>Scene 105. FIVE-I-e. Group 1 (6 of 8)</title>
+            <p/>
+        </section>
+        <section id="section_7">
+            <title>Scene 121. FIVE-V-a. Group 1 (7 of 8)</title>
+            <p/>
+        </section>
+        <section id="section_8">
+            <title>Scene 125. FIVE-V-e. Group 1 (8 of 8)</title>
+            <p/>
+        </section>
+    </body>
+</topic>
