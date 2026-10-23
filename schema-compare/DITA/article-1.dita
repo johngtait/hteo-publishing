@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id="untitled5">
+<topic id="article-I">
     <title>Article I</title>
     <body>
-        <section id="section_fr5_yjb_lhc">
+        <section id="section-1">
             <title>Section 1</title>
             <p>All legislative Powers herein granted shall be vested in a Congress of the United
                 States, which shall consist of a Senate and House of Representatives.</p>
         </section>
-        <section id="section_yqq_1kb_lhc">
+        <section id="section-2">
             <title>Section 2</title>
             <p>The House of Representatives shall be composed of Members chosen every second Year by
                 the People of the several States, and the Electors in each State shall have the
@@ -35,7 +35,7 @@
             <p>The House of Representatives shall chuse their Speaker and other Officers; and shall
                 have the sole Power of Impeachment.</p>
         </section>
-        <section id="section_hzd_4wb_lhc">
+        <section id="section-3">
             <title>Section 3</title>
             <p>The Senate of the United States shall be composed of two Senators from each State,
                 chosen by the Legislature thereof, for six Years; and each Senator shall have one
@@ -65,7 +65,7 @@
                 under the United States: but the Party convicted shall nevertheless be liable and
                 subject to Indictment, Trial, Judgment and Punishment, according to Law.</p>
         </section>
-        <section id="section_lfb_pwb_lhc">
+        <section id="section-4">
             <title>Section 4</title>
             <p>The Times, Places and Manner of holding Elections for Senators and Representatives,
                 shall be prescribed in each State by the Legislature thereof; but the Congress may
@@ -74,7 +74,7 @@
             <p>The Congress shall assemble at least once in every Year, and such Meeting shall be on
                 the first Monday in December, unless they shall by Law appoint a different Day.</p>
         </section>
-        <section id="section_x2m_qwb_lhc">
+        <section id="section-5">
             <title>Section 5</title>
             <p>Each House shall be the Judge of the Elections, Returns and Qualifications of its own
                 Members, and a Majority of each shall constitute a Quorum to do Business; but a
@@ -91,7 +91,7 @@
                 other, adjourn for more than three days, nor to any other Place than that in which
                 the two Houses shall be sitting.</p>
         </section>
-        <section id="section_dfc_twb_lhc">
+        <section id="section-6">
             <title>Section 6</title>
             <p>The Senators and Representatives shall receive a Compensation for their Services, to
                 be ascertained by Law, and paid out of the Treasury of the United States. They shall
@@ -105,7 +105,7 @@
                 time; and no Person holding any Office under the United States, shall be a Member of
                 either House during his Continuance in Office.</p>
         </section>
-        <section id="section_mps_5wb_lhc">
+        <section id="section-7">
             <title>Section 7</title>
             <p>All Bills for raising Revenue shall originate in the House of Representatives; but
                 the Senate may propose or concur with Amendments as on other Bills.</p>
@@ -130,7 +130,7 @@
                 two thirds of the Senate and House of Representatives, according to the Rules and
                 Limitations prescribed in the Case of a Bill.</p>
         </section>
-        <section id="section_kbt_xwb_lhc">
+        <section id="section-8">
             <title>Section 8</title>
             <p>The Congress shall have Power To lay and collect Taxes, Duties, Imposts and Excises,
                 to pay the Debts and provide for the common Defence and general Welfare of the
@@ -174,7 +174,7 @@
                 foregoing Powers, and all other Powers vested by this Constitution in the Government
                 of the United States, or in any Department or Officer thereof.</p>
         </section>
-        <section id="section_hcv_ywb_lhc">
+        <section id="section-9">
             <title>Section 9</title>
             <p>The Migration or Importation of such Persons as any of the States now existing shall
                 think proper to admit, shall not be prohibited by the Congress prior to the Year one
@@ -197,7 +197,7 @@
                 accept of any present, Emolument, Office, or Title, of any kind whatever, from any
                 King, Prince, or foreign State.</p>
         </section>
-        <section id="section_l5f_1xb_lhc">
+        <section id="section-10">
             <title>Section 10</title>
             <p>No State shall enter into any Treaty, Alliance, or Confederation; grant Letters of
                 Marque and Reprisal; coin Money; emit Bills of Credit; make any Thing but gold and
